@@ -1,0 +1,123 @@
+.. coursepage documentation master file, created by
+   sphinx-quickstart on Thu Jul 15 12:29:51 2021.
+   You can adapt this file completely to your liking, but it should at least
+   contain the root `toctree` directive.
+
+Welcome to the course CS-E5770 - Digital Health and Human Behaviour!
+*********************************************************************
+
+.. toctree::
+   :maxdepth: 2
+   :caption: Contents:
+
+
+.. # define a hard line break for HTML
+.. |br| raw:: html
+
+   <br />
+
+
+Course Description
+==================
+
+Overview
+----------------
+Connected devices like smartphones and smartwatches as well as online platforms like social media have become an important part of our daily lives in the past two decades. Interacting with these devices and platforms we leave digital traces behind. We often hear about companies having access to these digital traces (our data) can find out a lot about our lives and behavior. But what exactly can be learned from these data, how it can be learned and for what purposes can it be used? In this course we learn about different kinds of digital traces that people leave behind. Working with data in some case studies, we learn how to extract from these data. We also discuss different ways the extracted information from the data can be used. We focus on use cases which are related to health and well-being (e.g. self-tracking, monitoring people's sentiments during crises on social media, digital phenotyping).
+
+Learning outcomes
+-----------------
+After completing this course you will learn how digital data from people (e.g. data from their smartwatches) can be used to measure different aspects of their behavior at individual and group level. You will also learn how this information can be used in the domains of health and public health. By the end of the course you will know what kind of questions can be answered using such data and you will be able to implement code to extract relevant and useful information from such data.
+
+Description
+----------------
+This course will cover topics related to quantifying human behavior, health and well-being using digital traces both at the individual level and group/society level. The topics include: 1) quantified-self, 2) digital data collection and analysis of behavioral and/or physiological data in the wild as well as 3) controlled digital data collection via recruitment of study participants for the purpose of quantifying behavior, health and well-being, 4) digital phenotyping, 5) digital phenotyping for public health and 6) ethics, privacy and validity assessment in the context of all the topics covered in the course.
+
+Prerequisites
+-------------
+**Mandatory** |br|
+
+* Basic mathematics courses (especially probability) 
+* Python programming skills |br| 
+
+**Helpful to know** |br| 
+
+* Statistics 
+* Introductory courses in machine learning and data science and artificial intelligence
+
+Schedule
+==================
+
+Workload
+--------
+
+* Weekly lectures
+* Weekly exercises; data analysis
+* Weekly reading tasks
+* Inverse classroom (reading and videos) + in class discussion
+* Project
+
+Lecture 1: History and background
+---------------------------------
+* Course overview and practicalities
+* History of digital and connected devices and platform
+* Data sources
+* Types of data
+
+Lecture 2: Quantified-self
+---------------------------
+
+* What is quantified-self? How prevalent is it?
+* What is measured and how is it measured? (apps vs devices)
+* Applications of self-tracking
+
+Lecture 3: Quantifying behavior of groups of people/sub-populations
+--------------------------------------------------------------------
+
+* Data collection in the wild/Social media data: case study: sentiment analysis during crises
+* Controlled data collection: case study: Reality mining/DTU/ identifying chronotypes
+
+Lecture 4: Digital Phenotyping
+------------------------------
+
+* What is digital phenotyping?
+* Areas where it can be used
+* Case-study: MoMo-Mood
+
+**Resources** |br|
+Onnela, J. P., & Rauch, S. L. (2016). Harnessing smartphone-based digital phenotyping to enhance behavioral and mental health. Neuropsychopharmacology, 41(7), 1691-1696.
+
+Lecture 5: Digital Phenotyping for Public Health
+-------------------------------------------------
+**Resources** |br|
+Waring, O. M., & Majumder, M. S. (2020). Introduction to Digital Phenotyping for Global Health. In Leveraging Data Science for Global Health (pp. 251-261). Springer, Cham.
+
+Lecture 6: Privacy, ethics, assessment
+---------------------------------------
+
+* Privacy and ethics in data collection
+* Data handling and safekeeping, GDPR
+* Assessment and evaluation of tools and interventions which are based on patient-generated data
+
+Requirements & grading
+======================
+* Exercises are graded automatically/by TA 
+* In class quizzes (not graded)
+* Projects are graded with peer review 
+* No exam
+
+Materials
+==================
+- Onnela, J. P., & Rauch, S. L. (2016). Harnessing smartphone-based digital phenotyping to enhance behavioral and mental health. Neuropsychopharmacology, 41(7), 1691-1696.
+- Waring, O. M., & Majumder, M. S. (2020). Introduction to Digital Phenotyping for Global Health. In Leveraging Data Science for Global Health (pp. 251-261). Springer, Cham.
+
+Assignments
+==================
+Weekly assignments on JupyerHub to support lecture material.
+
+Project
+==================
+`Learn more <project.html>`_
+
+Contact information
+===================
+talayeh.aledavood@aalto.fi

@@ -1,0 +1,85 @@
+.. coursepage documentation master file, created by
+   sphinx-quickstart on Thu Jul 15 12:29:51 2021.
+   You can adapt this file completely to your liking, but it should at least
+   contain the root `toctree` directive.
+
+Project
+*********************************************************************
+
+.. toctree::
+   :maxdepth: 2
+   :caption: Contents:
+
+
+.. # define a hard line break for HTML
+.. |br| raw:: html
+
+   <br />
+
+
+Project Description
+===================
+
+
+Requirements
+-------------
+* Select one topic, explore the data, make conclusions and answer the questions
+* Write a report
+* Attach all the code including the README file on how to run the code
+
+Report structure
+=================
+
+Submission instruction
+-----------------------
+
+* Attach the report as **pdf** and all the code that you used for analysing the data and include the README file on how to run the code
+* Submit as the zipped folder
+
+Document Formatting
+----------------------
+* maximum 5 (?) pages with up to 4 (?) pages technical content. The fifth page can only contain references.
+* include minimum 2 figures
+* font size 11, single column, English language
+* report must be in pdf format
+* file size maximum 1 MB
+
+Report outline
+-------------------
+* Introduction
+* Problem formulation
+* Methods
+* Results
+* Conclusion
+* References
+
+Topics
+=======
+
+Topic 1: Fitbit fitness tracker data
+-------------------------------------
+Data: TBA |br|
+Tasks: TBA
+
+Topic 2: The Depression data
+-----------------------------
+Data: TBA |br|
+Tasks: TBA
+
+Topic 3: The Sleep data
+-----------------------------
+Data: TBA |br|
+Tasks: TBA
+
+Topic 4: Interaction data
+-----------------------------
+Data: TBA |br|
+Tasks: TBA
+
+Topic 5: Sentiment Analysis
+----------------------------
+Data: TBA |br|
+Tasks: TBA
+
+
+
