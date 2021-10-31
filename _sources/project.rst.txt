@@ -58,33 +58,111 @@ Topics
 
 Topic 1: Fitbit fitness tracker data
 -------------------------------------
-Data: TBA |br|
-Tasks: TBA
+Data: https://www.kaggle.com/arashnic/fitbit
+
+You are given the data that was collected using the fitbit wristwatch. It describes the daily activities of 30 volunteers for 31 consecutive days. In the dailyActivity_merged.csv file you can find the overview information of the daily activities of the user. In other files which names start with "daily" the daily overview of the tracked data is presented.
+
+In the "hourly" and "minute" files with the tracked data you can find how these actions are distributed around the day. weightLogInfo_merged.csv provides the background information about the weight of the user.
+
+Tasks:
+
+1. Clean the data, remove N/A values and outliers if there are such
+2. Analyse the data and plot interesting observations:
+   1. Minimum one observation on the group level
+   2. Minimum one observation on the subject level
+3. Explore one of these topics:
+   - Make conclusion about the subject's and community's lifestyle. Compare with the calories intake, sleep length and step count recommended by WHO.
+   - Make conclusion about the tendencies in daily activities of the individuals (in which situations the individual eats more, sleeps more or exercises more). Explore the patterns.
+   - Your own idea is welcome.
+
+Inspiration: https://www.freecodecamp.org/news/how-i-analyzed-the-data-from-my-fitbit-to-improve-my-overall-health-a2e36426d8f9/
+
 
 Topic 2: The Depression data
 -----------------------------
-Data: TBA |br|
-Tasks: TBA
+Data: https://www.kaggle.com/arashnic/the-depression-dataset
+
+You are given the data that consists of the observations of the activity of the patients with depression (condition group) and without it (control group). The observations include the activity measurements from the actigraph watch recorded every minute during approximately 5-20 days. 
+
+The scores.csv provides information about the background data of the participants, such as gender (1 or 2 for female or male), age group, length of education, marital status, employment status, type (afftype (1: bipolar II, 2: unipolar depressive, 3: bipolar I), melanch (1: melancholia, 2: no melancholia), inpatient (1: inpatient, 2: outpatient)) and severity (madrs1 (MADRS score when measurement started), madrs2 (MADRS when measurement stopped)) of the depression (only for the condition group).
+
+Tasks:
+
+1. Clean the data, remove N/A values if there are such
+
+2. Analyse the data and plot interesting observations:
+
+   1. Minimum one observation on the group level
+   2. Minimum one observation on the subject level
+
+   *Note! Use the background information* 
+
+3. Explore one of these topics:
+
+   - Make a comparison between control and condition groups.
+   - Make a comparison between different types of depression.
+   - Your own idea is welcome.
 
 Topic 3: The Sleep data
 -----------------------------
-Data: TBA |br|
-Tasks: TBA
+Data: https://www.kaggle.com/danagerous/sleep-data
+
+You are given the data that was collected through the Sleep Cycle app from Northcube on iOS between 2014-2018 for one user. In the dataset you can find the sleep quality, time spent in bed, general mood on waking up, notes about the events that could influence the sleep cycle and heartbeat.
+
+Tasks:
+
+1. Clean the data, remove N/A values if there are such
+2. Analyse the data and plot interesting observations:
+   1. At least two observations on the subject level
+3. Make a conclusion about what are the ideal conditions for the sleep for this user
 
 Topic 4: Interaction data
 -----------------------------
-Data: TBA |br|
-Tasks: TBA
+Data: https://physionet.org/content/sleep-accel/1.0.0/
+
+You are given the data that consists of motion (acceleration), heart rate and steps was collected using Apple Watch and labeled sleep recorded from polysomnography (0-5, wake = 0, N1 = 1, N2 = 2, N3 = 3, REM = 5) for 31 participants during 7 to 14 days period. Date is recorded in seconds since PSG start.
+
+Tasks:
+
+1. Clean the data, remove N/A values if there are such
+2. Analyse the data and plot interesting observations:
+   1. At least one observation on the group level
+   2. At least one observation on the subject level
+3. Explore one of these topics:
+   - Create a model prediction if the individual is asleep or awake.
+   - Create a model prediction if the individual's sleep cycle.
+   - Your own idea is welcome.
+4. Make a conclusion about what are the conditions which support longer deep sleep phase, thus influence better quality sleep.
+
+*Note! Please don't use labeled sleep values as parameters in your analysis, but rather treat them as a label.*
+
 
 Topic 5: Sentiment Analysis
 ----------------------------
-Data: TBA |br|
-Tasks: TBA
+Data: https://figshare.com/articles/dataset/The_Copenhagen_Networks_Study_interaction_data/7267433/1
 
+You are given the network data that was gathered using smartphones. The subjects are interacting via phone calls, SMS messages, social media (they are or are not Facebook friends) and in person (bt_symmetric.csv). The data also provides the timestamp of when the communication has occurred and the gender of the subjects.
 
-Assessment
-===========
-* Peer reviews. Each student need to reveiw 3 projects. In case of any issues please contact the course team.
+Tasks:
+
+1. Clean the data, remove N/A values if there are such
+
+2. Analyse the data and plot interesting observations:
+
+   1. At least one observation on the community level
+
+   2. At least one observation on the subject level 
+
+      *Note! Use the background information*
+
+3. Explore one of these topics:
+
+   - Make conclusions about how the virus would spread. Find the individuals who could cause the largest spread of the virus (central nodes).
+   - Explore the communication times and patterns between individuals.
+   - Your own idea is welcome.
+
+Inspiration: https://programminghistorian.org/en/lessons/exploring-and-analyzing-network-data-with-python
+
 
 
 
