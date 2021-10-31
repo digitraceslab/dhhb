@@ -52,7 +52,6 @@ Workload
 
 * Weekly lectures
 * Weekly exercises; data analysis
-* Weekly reading tasks
 * Inverse classroom (reading and videos) + in class discussion
 * Project
 
