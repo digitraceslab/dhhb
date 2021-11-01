@@ -36,24 +36,32 @@ Prerequisites
 -------------
 **Mandatory** |br|
 
-* Basic mathematics courses (especially probability) 
+* Basic mathematics courses (especially introductory statistics) 
 * Python programming skills |br| 
+* At least one introductory course in machine learning, data science or artificial intelligence
 
 **Helpful to know** |br| 
 
-* Statistics 
-* Introductory courses in machine learning and data science and artificial intelligence
+* Python libraries such as Scikit-learn and Seaborn
 
 Schedule
 ==================
+* Thu 04.11.2021 14:15–16:00
+* Thu 11.11.2021 14:15–16:00
+* Thu 18.11.2021 14:15–16:00
+* Thu 25.11.2021 14:15–16:00
+* Thu0 2.12.2021 14:15–16:00
+* Thu 09.12.2021 14:15–16:00
+* All lectures are online.
 
 Workload
 --------
 
 * Weekly lectures
 * Weekly exercises; data analysis
-* Inverse classroom (reading and videos) + in class discussion
-* Project
+* Weekly reading tasks
+* Final project
+* No exam
 
 Lecture 1: History and background
 ---------------------------------
@@ -104,14 +112,10 @@ Requirements & grading
 * Projects are graded with peer review 
 * No exam
 
-Materials
-==================
-- Onnela, J. P., & Rauch, S. L. (2016). Harnessing smartphone-based digital phenotyping to enhance behavioral and mental health. Neuropsychopharmacology, 41(7), 1691-1696.
-- Waring, O. M., & Majumder, M. S. (2020). Introduction to Digital Phenotyping for Global Health. In Leveraging Data Science for Global Health (pp. 251-261). Springer, Cham.
 
 Assignments
 ==================
-Weekly assignments on JupyerHub to support lecture material.
+Weekly assignments on JupyerHub to support lecture material as well as by peer grading.
 
 Project
 ==================
