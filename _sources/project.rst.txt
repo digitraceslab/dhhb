@@ -166,7 +166,3 @@ Tasks:
    - Your own idea is welcome.
 
 Inspiration: https://programminghistorian.org/en/lessons/exploring-and-analyzing-network-data-with-python
-
-
-
-
