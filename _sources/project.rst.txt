@@ -17,46 +17,51 @@ Project
    <br />
 
 
-Project Description
+1. Project Description
 ===================
 
 
 Requirements
 -------------
-* Select one topic, explore the data, make conclusions and answer the questions
-* Write a report
-* Attach all the code including the README file on how to run the code
+* Choose one topic that interests you.
+* Explore the data, make an analysis and draw conclusions about what you find.
+* Write a report in the corresponding format. (see the **Report Format** section below)
 
-Report structure
-=================
-
-Submission instruction
+Submission Instruction
 -----------------------
 
-* Attach the report as **pdf** and all the code that you used for analysing the data and include the README file on how to run the code
-* Submit as the zipped folder
+* Attach all the codes in a zip archive, including your pdf report, and a brief **README** file on how to set the environment (if needed) and run your code.
+* Submit the zip archive to the corresponding MyCourses submission box under the **Project** section.
 
-Document Formatting
+2. Report
+=================
+
+Report Format
 ----------------------
-* maximum 5 (?) pages with up to 4 (?) pages technical content. The fifth page can only contain references.
-* include minimum 2 figures
-* font size 11, single column, English language
-* report must be in pdf format
-* file size maximum 1 MB
+* Minimum 10 pages. The last page(s) should contain references.
+* Reference page(s) does **NOT** count when calculating number of pages.
+* Including minimum 2 figures (must be meaningful and with proper size).
+* Font size 12, single column. written in English.
+* Report must be in **pdf** format.
+* The report should be **anonymous**, **DO NOT** keep any information that might tell your peers who you are.
 
-Report outline
+
+Report Outline
 -------------------
-* Introduction
-* Problem formulation
-* Methods
+* Introduction (briefly introduce what is the report about)
+* Problem Formulation (describe what is the issue that your want to solve)
+* Backgroud Analysis (related work)
+* Methods (your methods)
 * Results
-* Conclusion
-* References
+* Conclusion & Dicussion
+* References (you can use any reference styles, but only using one style in your report)
 
-Topics
-=======
+Guide of how to make proper references with APA style: https://libguides.murdoch.edu.au/APA
 
-Topic 1: Fitbit fitness tracker data
+3 Topics
+=================
+
+Topic 1: Daily Activity Analysis with Fitbit Tracker Data
 -------------------------------------
 Data: https://www.kaggle.com/arashnic/fitbit
 
@@ -68,8 +73,8 @@ Tasks:
 
 1. Clean the data, remove N/A values and outliers if there are such
 2. Analyse the data and plot interesting observations:
-   1. Minimum one observation on the group level
-   2. Minimum one observation on the subject level
+   - Minimum one observation on the group level
+   - Minimum one observation on the subject level
 3. Explore one of these topics:
    - Make conclusion about the subject's and community's lifestyle. Compare with the calories intake, sleep length and step count recommended by WHO.
    - Make conclusion about the tendencies in daily activities of the individuals (in which situations the individual eats more, sleeps more or exercises more). Explore the patterns.
@@ -78,7 +83,7 @@ Tasks:
 Inspiration: https://www.freecodecamp.org/news/how-i-analyzed-the-data-from-my-fitbit-to-improve-my-overall-health-a2e36426d8f9/
 
 
-Topic 2: The Depression data
+Topic 2: Depression Analysis
 -----------------------------
 Data: https://www.kaggle.com/arashnic/the-depression-dataset
 
@@ -92,10 +97,9 @@ Tasks:
 
 2. Analyse the data and plot interesting observations:
 
-   1. Minimum one observation on the group level
-   2. Minimum one observation on the subject level
-
-   *Note! Use the background information* 
+   - Minimum one observation on the group level
+   - Minimum one observation on the subject level
+   - *Note! Use the background information* 
 
 3. Explore one of these topics:
 
@@ -103,7 +107,7 @@ Tasks:
    - Make a comparison between different types of depression.
    - Your own idea is welcome.
 
-Topic 3: The Sleep data
+Topic 3: Sleep Analysis
 -----------------------------
 Data: https://www.kaggle.com/danagerous/sleep-data
 
@@ -113,10 +117,10 @@ Tasks:
 
 1. Clean the data, remove N/A values if there are such
 2. Analyse the data and plot interesting observations:
-   1. At least two observations on the subject level
+   - At least two observations on the subject level
 3. Make a conclusion about what are the ideal conditions for the sleep for this user
 
-Topic 4: Interaction data
+Topic 4: Interaction Analysis with Apple Watch Data
 -----------------------------
 Data: https://physionet.org/content/sleep-accel/1.0.0/
 
@@ -126,8 +130,8 @@ Tasks:
 
 1. Clean the data, remove N/A values if there are such
 2. Analyse the data and plot interesting observations:
-   1. At least one observation on the group level
-   2. At least one observation on the subject level
+   - At least one observation on the group level
+   - At least one observation on the subject level
 3. Explore one of these topics:
    - Create a model prediction if the individual is asleep or awake.
    - Create a model prediction if the individual's sleep cycle.
@@ -149,11 +153,11 @@ Tasks:
 
 2. Analyse the data and plot interesting observations:
 
-   1. At least one observation on the community level
+   - At least one observation on the community level
 
-   2. At least one observation on the subject level 
-
-      *Note! Use the background information*
+   - At least one observation on the subject level
+   
+   - *Note! Use the background information*
 
 3. Explore one of these topics:
 
