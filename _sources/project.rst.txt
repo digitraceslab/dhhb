@@ -141,7 +141,7 @@ Tasks:
 *Note! Please don't use labeled sleep values as parameters in your analysis, but rather treat them as a label.*
 
 
-Topic 5: Sentiment Analysis
+Topic 5: Network Study
 ----------------------------
 Data: https://figshare.com/articles/dataset/The_Copenhagen_Networks_Study_interaction_data/7267433/1
 
