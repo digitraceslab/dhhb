@@ -59,16 +59,18 @@ Workload
 
 * Weekly lectures
 * Weekly exercises; data analysis
-* Weekly reading tasks
+* Weekly reading (+ writing) tasks
+* Peer grading
 * Final project
 * No exam
 
-Lecture 1: History and background
+Lecture 1: Intro and background
 ---------------------------------
 * Course overview and practicalities
-* History of digital and connected devices and platform
+* Health, well-being and digital data 
 * Data sources
 * Types of data
+
 
 Lecture 2: Quantified-self
 ---------------------------
