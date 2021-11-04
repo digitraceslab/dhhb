@@ -38,9 +38,9 @@ Submission Instruction
 
 Report Format
 ----------------------
-* Minimum 10 pages. The last page(s) should contain references.
-* Reference page(s) does **NOT** count when calculating number of pages.
-* Including minimum 2 figures (must be meaningful and with proper size).
+* Minimum 10 pages (without references). The last page(s) should contain references.
+* Reference page(s) does **NOT** count towards the total number of pages.
+* Including minimum 2 plots (must be meaningful and with proper size).
 * Font size 12, single column. written in English.
 * Report must be in **pdf** format.
 * The report should be **anonymous**, **DO NOT** keep any information that might tell your peers who you are.
@@ -48,18 +48,19 @@ Report Format
 
 Report Outline
 -------------------
-* Introduction (briefly introduce what is the report about)
+* Introduction 
 * Problem Formulation (describe what is the issue that your want to solve)
 * Backgroud Analysis (related work)
 * Methods (your methods)
 * Results
 * Conclusion & Dicussion
-* References (you can use any reference styles, but only using one style in your report)
+* References (you can use any reference styles, but only use one style in your report)
 
 Guide of how to make proper references with APA style: https://libguides.murdoch.edu.au/APA
 
-3 Topics
+3. Topics
 =================
+Here you are given a list of options for your final project. You can either explore one of these or a dataset of your choice. If you decide to go with your own choice of dataset, you must get it approved by the course staff within the first two weeks of the course.
 
 Topic 1: Daily Activity Analysis with Fitbit Tracker Data
 -------------------------------------
@@ -101,7 +102,7 @@ Tasks:
    - Minimum one observation on the subject level
    - *Note! Use the background information* 
 
-3. Explore one of these topics:
+3. Explore one (or more) of these topics:
 
    - Make a comparison between control and condition groups.
    - Make a comparison between different types of depression.
@@ -132,7 +133,7 @@ Tasks:
 2. Analyse the data and plot interesting observations:
    - At least one observation on the group level
    - At least one observation on the subject level
-3. Explore one of these topics:
+3. Explore one (or more) of these topics:
    - Create a model prediction if the individual is asleep or awake.
    - Create a model prediction if the individual's sleep cycle.
    - Your own idea is welcome.
@@ -159,7 +160,7 @@ Tasks:
    
    - *Note! Use the background information*
 
-3. Explore one of these topics:
+3. Explore one (or more) of these topics:
 
    - Make conclusions about how the virus would spread. Find the individuals who could cause the largest spread of the virus (central nodes).
    - Explore the communication times and patterns between individuals.
