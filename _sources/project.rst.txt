@@ -61,7 +61,7 @@ Guide of how to make proper references with APA style: https://libguides.murdoch
 3. Topics
 =================
 Here you are given a list of options for your final project. You can either explore one of these or a dataset of your choice. If you decide to go with your own choice of dataset, you must get it approved by the course staff within the first two weeks of the course.
-The tasks under each topic are suggestions to make your work easier. They might not be enough for a full project. If the tasks seem to easy, use your own ideas in combination with these. 
+The tasks anad analyses under each topic are suggestions to make your work easier. They might not be enough for a full project. If the tasks seem too easy, use your own ideas in combination with these. 
 
 Topic 1: Daily Activity Analysis with Fitbit Tracker Data
 -------------------------------------
