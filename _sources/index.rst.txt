@@ -3,7 +3,7 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Welcome to the course CS-E5770 - Digital Health and Human Behaviour!
+Welcome to the course CS-E4007504 - Digital Health and Human Behavior!
 *********************************************************************
 
 .. toctree::
@@ -107,15 +107,15 @@ Lecture 6: Privacy, ethics, assessment
 
 Requirements & grading
 ======================
-* Exercises are graded automatically/by TA 
+* Exercises are graded automatically/by peers
 * In class quizzes (not graded)
-* Projects are graded with peer review 
+* Projects are graded by peer review 
 * No exam
 
 
 Assignments
 ==================
-Weekly assignments on JupyerHub to support lecture material as well as by peer grading.
+Weekly assignments on Jupyer Hub to support lecture material as well as by peer grading.
 
 Project
 ==================
