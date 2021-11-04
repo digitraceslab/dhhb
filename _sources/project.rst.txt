@@ -61,6 +61,7 @@ Guide of how to make proper references with APA style: https://libguides.murdoch
 3. Topics
 =================
 Here you are given a list of options for your final project. You can either explore one of these or a dataset of your choice. If you decide to go with your own choice of dataset, you must get it approved by the course staff within the first two weeks of the course.
+The tasks under each topic are suggestions to make your work easier. They might not be enough for a full project. If the tasks seem to easy, use your own ideas in combination with these. 
 
 Topic 1: Daily Activity Analysis with Fitbit Tracker Data
 -------------------------------------
@@ -76,7 +77,7 @@ Tasks:
 2. Analyse the data and plot interesting observations:
    - Minimum one observation on the group level
    - Minimum one observation on the subject level
-3. Explore one of these topics:
+3. Explore one (or more) of these topics:
    - Make conclusion about the subject's and community's lifestyle. Compare with the calories intake, sleep length and step count recommended by WHO.
    - Make conclusion about the tendencies in daily activities of the individuals (in which situations the individual eats more, sleeps more or exercises more). Explore the patterns.
    - Your own idea is welcome.
