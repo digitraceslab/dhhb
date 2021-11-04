@@ -19,6 +19,7 @@ Welcome to the course CS-E4007504 - Digital Health and Human Behavior!
 
 Course Description
 ==================
+This course is a "Special Course in Machine Learning, Data Science and Artificial Intelligence". You can find the course and enroll on SISU by searching for the course code "CS-E407504". This is a 5-credit course over period II.
 
 Overview
 ----------------
