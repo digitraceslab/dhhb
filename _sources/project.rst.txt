@@ -60,8 +60,10 @@ Guide of how to make proper references with APA style: https://libguides.murdoch
 
 3. Topics
 =================
-Here you are given a list of options for your final project. You can either explore one of these or a dataset of your choice. If you decide to go with your own choice of dataset, you must get it approved by the course staff within the first two weeks of the course.
-The tasks anad analyses under each topic are suggestions to make your work easier. They might not be enough for a full project. If the tasks seem too easy, use your own ideas in combination with these. 
+Here you are given a list of options for your final project. You can either explore one of these or a dataset of your choice. If you decide to go with your own choice of the dataset, you must get it approved by the course staff within the first two weeks.
+The tasks and analyses under each topic are suggestions to make your work easier. They might not be enough for a complete project. If you want to get full points, please either conduct your analysis in addition to the suggested tasks or give a in-depth study of the given tasks.
+
+
 
 Topic 1: Daily Activity Analysis with Fitbit Tracker Data
 -------------------------------------
@@ -71,7 +73,7 @@ You are given the data that was collected using the fitbit wristwatch. It descri
 
 In the "hourly" and "minute" files with the tracked data you can find how these actions are distributed around the day. weightLogInfo_merged.csv provides the background information about the weight of the user.
 
-Tasks:
+Suggested Tasks:
 
 1. Clean the data, remove N/A values and outliers if there are such
 2. Analyse the data and plot interesting observations:
@@ -93,9 +95,9 @@ You are given the data that consists of the observations of the activity of the 
 
 The scores.csv provides information about the background data of the participants, such as gender (1 or 2 for female or male), age group, length of education, marital status, employment status, type (afftype (1: bipolar II, 2: unipolar depressive, 3: bipolar I), melanch (1: melancholia, 2: no melancholia), inpatient (1: inpatient, 2: outpatient)) and severity (madrs1 (MADRS score when measurement started), madrs2 (MADRS when measurement stopped)) of the depression (only for the condition group).
 
-Tasks:
+Suggested Tasks:
 
-1. Clean the data, remove N/A values if there are such
+1. Clean the data, remove N/A values if there are such, or replace the missing values with predictions
 
 2. Analyse the data and plot interesting observations:
 
@@ -115,13 +117,13 @@ Data: https://www.kaggle.com/danagerous/sleep-data
 
 You are given the data that was collected through the Sleep Cycle app from Northcube on iOS between 2014-2018 for one user. In the dataset you can find the sleep quality, time spent in bed, general mood on waking up, notes about the events that could influence the sleep cycle and heartbeat.
 
-Tasks:
+Suggested Tasks:
 
-1. Clean the data, remove N/A values if there are such
+1. Clean the data, remove N/A values if there are such, or replace the missing values with predictions
 2. Analyse the data and plot interesting observations:
    - At least two observations on the subject level
-3. Explore associations with techniques such as clustering, dimension reduction, kernel methods, etc.
-4. Conclude what are the ideal conditions for the sleep for this user
+3. Explore associations or any other topics with techniques such as clustering, dimension reduction, kernel methods, etc. The more methods you use, the higher chance your will get full points. 
+4. Conclude your results.
 
 Topic 4: Interaction Analysis with Apple Watch Data
 -----------------------------
@@ -129,9 +131,9 @@ Data: https://physionet.org/content/sleep-accel/1.0.0/
 
 You are given the data that consists of motion (acceleration), heart rate and steps was collected using Apple Watch and labeled sleep recorded from polysomnography (0-5, wake = 0, N1 = 1, N2 = 2, N3 = 3, REM = 5) for 31 participants during 7 to 14 days period. Date is recorded in seconds since PSG start.
 
-Tasks:
+Suggested Tasks:
 
-1. Clean the data, remove N/A values if there are such
+1. Clean the data, remove N/A values if there are such, or replace the missing values with predictions
 2. Analyse the data and plot interesting observations:
    - At least one observation on the group level
    - At least one observation on the subject level
@@ -150,9 +152,9 @@ Data: https://figshare.com/articles/dataset/The_Copenhagen_Networks_Study_intera
 
 You are given the network data that was gathered using smartphones. The subjects are interacting via phone calls, SMS messages, social media (they are or are not Facebook friends) and in person (bt_symmetric.csv). The data also provides the timestamp of when the communication has occurred and the gender of the subjects.
 
-Tasks:
+Suggested Tasks:
 
-1. Clean the data, remove N/A values if there are such
+1. Clean the data, remove N/A values if there are such, or replace the missing values with predictions
 
 2. Analyse the data and plot interesting observations:
 
