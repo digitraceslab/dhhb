@@ -48,12 +48,12 @@ Report Format
 
 Report Outline
 -------------------
-* Introduction 
+* Introduction (context setting up, related work or literature review, etc.)
 * Problem Formulation (describe what is the issue that your want to solve)
-* Backgroud Analysis (related work)
+* Dataset Description (data types, missing data, observations, etc.)
 * Methods (your methods)
 * Results
-* Conclusion & Dicussion
+* Conclusion & Discussion
 * References (you can use any reference styles, but only use one style in your report)
 
 Guide of how to make proper references with APA style: https://libguides.murdoch.edu.au/APA
@@ -120,7 +120,8 @@ Tasks:
 1. Clean the data, remove N/A values if there are such
 2. Analyse the data and plot interesting observations:
    - At least two observations on the subject level
-3. Make a conclusion about what are the ideal conditions for the sleep for this user
+3. Explore associations with techniques such as clustering, dimension reduction, kernel methods, etc.
+4. Conclude what are the ideal conditions for the sleep for this user
 
 Topic 4: Interaction Analysis with Apple Watch Data
 -----------------------------
