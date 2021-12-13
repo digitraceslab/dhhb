@@ -48,11 +48,11 @@ Report Format
 
 Report Outline
 -------------------
-* Introduction (context setting up, related work or literature review, etc.)
-* Problem Formulation (describe what is the issue that your want to solve)
+* Introduction (setting up the context, review of related work, discussing the objectives of the work, briefly discussing the findings, etc.)
+* Problem Formulation (describe what is the issue that your want to solve and how you solve it)
 * Dataset Description (data types, missing data, observations, etc.)
-* Methods (your methods)
-* Results
+* Methods (description of the methods used for the analyses)
+* Results (the findings including figures)
 * Conclusion & Discussion
 * References (you can use any reference styles, but only use one style in your report)
 
@@ -61,7 +61,7 @@ Guide of how to make proper references with APA style: https://libguides.murdoch
 3. Topics
 =================
 Here you are given a list of options for your final project. You can either explore one of these or a dataset of your choice. If you decide to go with your own choice of the dataset, you must get it approved by the course staff within the first two weeks.
-The tasks and analyses under each topic are suggestions to make your work easier. They might not be enough for a complete project. If you want to get full points, please either conduct your analysis in addition to the suggested tasks or give a in-depth study of the given tasks.
+The tasks and analyses under each topic are suggestions to make your work easier. They might not be enough for a complete project. If you want to get full points, please either conduct your analysis in addition to the suggested tasks or perform an in-depth analysis based on the given tasks.
 
 
 
@@ -97,7 +97,7 @@ The scores.csv provides information about the background data of the participant
 
 Suggested Tasks:
 
-1. Clean the data, remove N/A values if there are such, or replace the missing values with predictions
+1. Clean the data, remove N/A values if there are such, or impute the missing values
 
 2. Analyse the data and plot interesting observations:
 
@@ -119,7 +119,7 @@ You are given the data that was collected through the Sleep Cycle app from North
 
 Suggested Tasks:
 
-1. Clean the data, remove N/A values if there are such, or replace the missing values with predictions
+1. Clean the data, remove N/A values if there are such, or impute the missing values
 2. Analyse the data and plot interesting observations:
    - At least two observations on the subject level
 3. Explore associations or any other topics with techniques such as clustering, dimension reduction, kernel methods, etc. The more methods you use, the higher chance your will get full points. 
@@ -133,7 +133,7 @@ You are given the data that consists of motion (acceleration), heart rate and st
 
 Suggested Tasks:
 
-1. Clean the data, remove N/A values if there are such, or replace the missing values with predictions
+1. Clean the data, remove N/A values if there are such, or impute the missing values
 2. Analyse the data and plot interesting observations:
    - At least one observation on the group level
    - At least one observation on the subject level
@@ -154,7 +154,7 @@ You are given the network data that was gathered using smartphones. The subjects
 
 Suggested Tasks:
 
-1. Clean the data, remove N/A values if there are such, or replace the missing values with predictions
+1. Clean the data, remove N/A values if there are such, or impute the missing values
 
 2. Analyse the data and plot interesting observations:
 
