@@ -3,7 +3,7 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Welcome to the course CS-E4007504 - Digital Health and Human Behavior!
+Welcome to the course CS-C4100 - Digital Health and Human Behavior!
 *********************************************************************
 
 .. toctree::
@@ -19,7 +19,7 @@ Welcome to the course CS-E4007504 - Digital Health and Human Behavior!
 
 Course Description
 ==================
-This course is a "Special Course in Machine Learning, Data Science and Artificial Intelligence". You can find the course and enroll on SISU by searching for the course code "CS-E407504". This is a 5-credit course over period II.
+This course is a "Special Course in Machine Learning, Data Science and Artificial Intelligence". You can find the course and enroll on Sisu by searching for the course code "CS-C4100". This is a 5-credit course over period II.
 
 Overview
 ----------------
@@ -47,13 +47,23 @@ Prerequisites
 
 Schedule
 ==================
-* Thu 04.11.2021 14:15–16:00
-* Thu 11.11.2021 14:15–16:00
-* Thu 18.11.2021 14:15–16:00
-* Thu 25.11.2021 14:15–16:00
-* Thu0 2.12.2021 14:15–16:00
-* Thu 09.12.2021 14:15–16:00
-* All lectures are online.
+* Wed 26.10.2022 14:15–15:45
+* Wed 02.11.2022 14:15–15:45
+* Wed 09.11.2022 14:15–15:45
+* Wed 16.11.2022 14:15–15:45
+* Wed 23.11.2022 14:15–15:45
+* Wed 30.11.2022 14:15–15:45
+* All lectures are held on campus (Location:
+Undergraduate Centre, U3 - U141).
+
+Exercise Sessions
+==================
+* Mon 31.10.2022 14:15–15:45
+* Mon 07.11.2022 14:15–15:45
+* Mon 14.11.2022 14:15–15:45
+* Mon 21.11.2022 14:15–15:45
+* Mon 28.11.2022 14:15–15:45
+* All exercise sessions are held online.
 
 Workload
 --------
