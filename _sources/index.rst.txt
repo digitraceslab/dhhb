@@ -19,7 +19,7 @@ Welcome to the course CS-C4100 - Digital Health and Human Behavior!
 
 Course Description
 ==================
-The audience of this course is BSc students in their final year and MSc students, with some knowelege of Python and data science. You can find the course and enroll on Sisu by searching for the course code "CS-C4100". This is a 5-credit course over period II.
+This course is a "Special Course in Machine Learning, Data Science and Artificial Intelligence". You can find the course and enroll on Sisu by searching for the course code "CS-C4100". This is a 5-credit course over period II.
 
 Overview
 ----------------
