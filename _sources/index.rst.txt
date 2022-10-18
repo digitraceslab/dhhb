@@ -65,15 +65,15 @@ Exercise Sessions
 * Mon 28.11.2022 14:15–15:45
 * All exercise sessions are held online.
 
-Workload
+Workload structure
 --------
 
-* Weekly lectures
+* Weekly lectures (bonus attendance points)
 * Weekly exercises; data analysis
 * Weekly reading (+ writing) tasks
 * Peer grading
 * Final project
-* No exam
+* No exam!
 
 Lecture 1: Intro and background
 ---------------------------------
