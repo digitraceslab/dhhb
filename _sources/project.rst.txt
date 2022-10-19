@@ -169,6 +169,7 @@ Suggested Tasks:
 
    - Using LIWC (Linguistic Inquiry and Word Count) to conduct Linguistic analysis of the tweets.
    - Using Textblob to conduct Sentiment Analysis of the tweets.
+   - Using other tools to analysis different aspects are welcome.
 
 
 Refer: textblob: https://textblob.readthedocs.io/en/dev/
