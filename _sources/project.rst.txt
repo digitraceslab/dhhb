@@ -145,8 +145,33 @@ Suggested Tasks:
 
 *Note! Please don't use labeled sleep values as parameters in your analysis, but rather treat them as a label.*
 
+Topic 5: Network Study
+----------------------------
+Data: https://figshare.com/articles/dataset/The_Copenhagen_Networks_Study_interaction_data/7267433/1
 
-Topic 5: Social Media Analysis
+You are given the network data that was gathered using smartphones. The subjects are interacting via phone calls, SMS messages, social media (they are or are not Facebook friends) and in person (bt_symmetric.csv). The data also provides the timestamp of when the communication has occurred and the gender of the subjects.
+
+Suggested Tasks:
+
+1. Clean the data, remove N/A values if there are such, or replace the missing values with predictions
+
+2. Analyse the data and plot interesting observations:
+
+   - At least one observation on the community level
+
+   - At least one observation on the subject level
+   
+   - *Note! Use the background information*
+
+3. Explore one (or more) of these topics:
+
+   - Make conclusions about how the virus would spread. Find the individuals who could cause the largest spread of the virus (central nodes).
+   - Explore the communication times and patterns between individuals.
+   - Your own idea is welcome.
+
+Inspiration: https://programminghistorian.org/en/lessons/exploring-and-analyzing-network-data-with-python
+
+Topic 6: Social Media Analysis
 ----------------------------
 Data: https://www.kaggle.com/datasets/komalkhetlani/tweets-about-covid19-all-over-the-world
 
