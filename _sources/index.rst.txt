@@ -53,8 +53,7 @@ Schedule
 * Wed 16.11.2022 14:15–15:45
 * Wed 23.11.2022 14:15–15:45
 * Wed 30.11.2022 14:15–15:45
-* All lectures are held on campus (Location:
-Undergraduate Centre, U3 - U141).
+* All lectures are held on campus (Location: Undergraduate Centre, U3 - U141).
 
 Exercise Sessions
 ==================
