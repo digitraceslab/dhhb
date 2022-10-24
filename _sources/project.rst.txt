@@ -197,4 +197,4 @@ Suggested Tasks:
    - Using other tools to analysis different aspects are welcome.
 
 
-Refer: textblob: https://textblob.readthedocs.io/en/dev/
+Reference: textblob: https://textblob.readthedocs.io/en/dev/
