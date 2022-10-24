@@ -3,7 +3,8 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-.. image:: images/digitalhealthlogo.png
+
+.. image:: ../images/digitalhealthlogo.jpg
    :width: 600
    
 Welcome to the course CS-C4100 - Digital Health and Human Behavior!
@@ -18,8 +19,7 @@ Welcome to the course CS-C4100 - Digital Health and Human Behavior!
 .. |br| raw:: html
 
    <br />
-
-
+   
 Course Description
 ==================
 The main audience of this course is BSc students in their final year and MSc students, with knowledge of Python and data science. You can find the course and enroll on Sisu by searching for the course code "CS-C4100". This is a 5-credit course over period II.
