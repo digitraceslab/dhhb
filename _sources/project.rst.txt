@@ -186,8 +186,6 @@ Suggested Tasks:
       - At least one observation on the post activity (e.g. daily, weekly or monthly posts frequency)
 
       - At least one observation on the text (wordcloud, most frequent words, most frequent hashtags, most frequent mentions, etc.)
-   
-      - At least one observation on the subject level
 
 
 3. Explore one (or more) of these topics:
