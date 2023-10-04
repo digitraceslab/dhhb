@@ -44,7 +44,7 @@ Report Format
 * Font size 12, single column. written in English.
 * Report must be in **pdf** format.
 * The report should be **anonymous**, **DO NOT** keep any information that might tell your peers who you are.
-
+* Do not include any code/pseudocode/screenshots of your code in the report.
 
 Report Outline
 -------------------

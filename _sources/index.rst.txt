@@ -65,6 +65,7 @@ Exercise Sessions
 * Mon 13.11.2023 14:15–15:45
 * Mon 20.11.2023 14:15–15:45
 * Mon 27.11.2023 14:15–15:45
+* Mon 04.12.2023 14:15–15:45 (Questions related to the final project)
 * All exercise sessions are held online.
 
 Workload structure
@@ -72,9 +73,8 @@ Workload structure
 
 * Weekly lectures (bonus attendance points)
 * Weekly exercises; data analysis
-* Weekly reading (+ writing) tasks
-* Peer grading
-* Final project
+* Weekly reading + multiple choice questions
+* Final project + Peer grading
 * No exam!
 
 Lecture 1: Intro and background
@@ -122,15 +122,15 @@ Lecture 6: Privacy, ethics, assessment
 
 Requirements & grading
 ======================
-* Exercises are graded automatically/by peers
-* In class quizzes (not graded)
+* Exercises are graded automatically/by the TAs
+* In class tasks (not graded)
 * Projects are graded by peer review 
 * No exam
 
 
 Assignments
 ==================
-Weekly assignments on Jupyer Hub to support lecture material as well as by peer grading.
+Weekly assignments on Jupyer Hub to support lecture material
 
 Project
 ==================
