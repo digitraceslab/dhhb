@@ -9,7 +9,7 @@
    
 Welcome to the course CS-C4100 - Digital Health and Human Behavior!
 *********************************************************************
-
+ </br >
 .. toctree::
    :maxdepth: 2
    :caption: Contents:
