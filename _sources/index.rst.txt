@@ -22,19 +22,19 @@ Welcome to the course CS-C4100 - Digital Health and Human Behavior!
    
 Course Description
 ==================
-The main audience of this course is BSc students in their final year and MSc students, with knowledge of Python and data science. You can find the course and enroll on Sisu by searching for the course code "CS-C4100". This is a 5-credit course over period II.
+The primary audience of this course is BSc students in their final year and MSc students with knowledge of Python and data science. You can find the course and enroll on Sisu by searching for the course code "CS-C4100". This is a 5-credit course over period II.
 
 Overview
 ----------------
-Connected devices like smartphones and smartwatches as well as online platforms like social media have become an important part of our daily lives in the past two decades. Interacting with these devices and platforms we leave digital traces behind. We often hear about companies having access to these digital traces (our data) can find out a lot about our lives and behavior. But what exactly can be learned from these data, how it can be learned and for what purposes can it be used? In this course we learn about different kinds of digital traces that people leave behind. Working with data in some case studies, we learn how to extract from these data. We also discuss different ways the extracted information from the data can be used. We focus on use cases which are related to health and well-being (e.g. self-tracking, monitoring people's sentiments during crises on social media, digital phenotyping).
+Connected devices like smartphones, smartwatches, and online platforms like social media have become essential to our daily lives in the past two decades. Interacting with these devices and platforms, we leave digital traces behind. We often hear companies accessing these digital traces (our data) can learn much about our lives and behavior. But what exactly can be learned from these data, how it can be learned, and for what purposes can it be used? In this course, we learn about different kinds of digital traces that people leave behind. Working with data in some case studies, we learn how to extract from these data. We also discuss different ways to use the extracted information from the data. We focus on use cases that are related to health and well-being (e.g., self-tracking, monitoring people's sentiments during crises on social media, and digital phenotyping).
 
 Learning outcomes
 -----------------
-After completing this course you will learn how digital data from people (e.g. data from their smartwatches) can be used to measure different aspects of their behavior at individual and group level. You will also learn how this information can be used in the domains of health and public health. By the end of the course you will know what kind of questions can be answered using such data and you will be able to implement code to extract relevant and useful information from such data.
+After completing this course, you will learn how digital data from people (e.g., data from their smartwatches) can be used to measure different aspects of their behavior at individual and group levels. You will also learn how this information can be used in health and public health domains. By the end of the course, you will know what kind of questions can be answered using such data, and you will be able to implement code to extract relevant and valuable information from such data.
 
 Description
 ----------------
-This course will cover topics related to quantifying human behavior, health and well-being using digital traces both at the individual level and group/society level. The topics include: 1) quantified-self, 2) digital data collection and analysis of behavioral and/or physiological data in the wild as well as 3) controlled digital data collection via recruitment of study participants for the purpose of quantifying behavior, health and well-being, 4) digital phenotyping, 5) digital phenotyping for public health and 6) ethics, privacy and validity assessment in the context of all the topics covered in the course.
+This course will cover topics related to quantifying human behavior, health, and well-being using digital traces at the individual and group/society levels. The topics include 1) quantified-self, 2) digital data collection and analysis of behavioral and/or physiological data in the wild as well and 3) controlled digital data collection via recruitment of study participants for the purpose of quantifying behavior, health, and well-being, 4) digital phenotyping, 5) digital phenotyping for public health and 6) ethics, privacy and validity assessment in the context of all the topics covered in the course.
 
 Prerequisites
 -------------
@@ -42,7 +42,7 @@ Prerequisites
 
 * Basic mathematics courses (especially introductory statistics) 
 * Python programming skills |br| 
-* At least one introductory course in machine learning, data science or artificial intelligence
+* At least one introductory course in machine learning, data science, or artificial intelligence
 
 **Helpful to know** |br| 
 
@@ -56,7 +56,7 @@ Schedule
 * Wed 15.11.2023 14:15–16:00
 * Wed 22.11.2023 14:15–16:00
 * Wed 29.11.2023 14:15–16:00
-* All lectures are held on campus (Location: Undergraduate Centre, U3 - U141).
+* All lectures are held on campus (Location: R008/213a, Otakaari 4).
 
 Exercise Sessions
 ==================
@@ -80,7 +80,7 @@ Workload structure
 Lecture 1: Intro and background
 ---------------------------------
 * Course overview and practicalities
-* Health, well-being and digital data 
+* Health, well-being, and digital data 
 * Data sources
 * Types of data
 
@@ -123,8 +123,8 @@ Lecture 6: Privacy, ethics, assessment
 Requirements & grading
 ======================
 * Exercises are graded automatically/by the TAs
-* In class tasks (not graded)
-* Projects are graded by peer review 
+* In-class tasks (not graded)
+* Projects are graded by peer review and teaching assistants
 * No exam
 
 
