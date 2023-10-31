@@ -171,7 +171,7 @@ Suggested Tasks:
 
 Inspiration: https://programminghistorian.org/en/lessons/exploring-and-analyzing-network-data-with-python
 
-Topic 6: Social Media Analysis
+Topic 6: Social Media Analysis on Vaccines Discourse 
 ----------------------------
 Data: https://www.kaggle.com/datasets/komalkhetlani/tweets-about-covid19-all-over-the-world
 
@@ -179,11 +179,11 @@ You are given the Twitter posts data that contains  tweets from the all over Twi
 
 Suggested Tasks:
 
-1. Clean the dataset, remove ULR, N/A values if there are such, mentions, and special characters. 
+1. Clean the dataset, removing any URLs, mentions, special characters, and N/A values if present.
 
 2. Explore the data and plot interesting observations
    
-      - At least one observation on the post activity (e.g. daily, weekly or monthly posts frequency)
+      - At least one observation on the post-activity (e.g. daily, weekly or monthly post frequency)
 
       - At least one observation on the text (wordcloud, most frequent words, most frequent hashtags, most frequent mentions, etc.)
 
@@ -192,7 +192,24 @@ Suggested Tasks:
 
    - Using LIWC (Linguistic Inquiry and Word Count) to conduct Linguistic analysis of the tweets.
    - Using Textblob to conduct Sentiment Analysis of the tweets.
-   - Using other tools to analysis different aspects are welcome.
+   - Using other tools to analyze different aspects is welcome.
 
+Reference: textblob: https://textblob.readthedocs.io/en/dev/
+
+Topic 7: Social Media Analysis on Mental Health Discourse 
+----------------------------
+Social media platforms like Twitter provide valuable insights into the mental well-being of users. In this project, you will delve deep into two datasets containing tweets related to depression and anxiety.
+
+Suggested Tasks:
+
+1. Clean the dataset and remove ULR, N/A values if there are such, mentions, and special characters.
+
+2. Analyze the data and plot interesting observations: - At least two observations surrounding depression versus anxiety, and explore any noteworthy differences or similarities.
+
+3. Explore one (or more) of these topics:
+
+- Using LIWC (Linguistic Inquiry and Word Count) to conduct a Linguistic analysis of the tweets.
+- Using Textblob to conduct Sentiment Analysis of the tweets.
+- Using other tools to analyze different aspects is welcome.
 
 Reference: textblob: https://textblob.readthedocs.io/en/dev/
