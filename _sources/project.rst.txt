@@ -175,7 +175,7 @@ Topic 6: Social Media Analysis on Vaccines Discourse
 ----------------------------
 Data: https://www.kaggle.com/datasets/komalkhetlani/tweets-about-covid19-all-over-the-world
 
-You are given the Twitter posts data that contains  tweets from the all over Twitter accounts of the world that are talking about Covid-19. The dataset provide features such as original tweet, language and created time. 
+You are given the Twitter posts data that contains tweets from the all over Twitter accounts of the world that are talking about Covid-19. The dataset provide features such as original tweet, language and created time. 
 
 Suggested Tasks:
 
@@ -190,7 +190,7 @@ Suggested Tasks:
 
 3. Explore one (or more) of these topics:
 
-   - Using LIWC (Linguistic Inquiry and Word Count) to conduct Linguistic analysis of the tweets.
+   - Using LIWC (Linguistic Inquiry and Word Count) to conduct Linguistic analysis of the tweets (if you are seeking a liwc dic file, using your aalto university to access https://drive.google.com/drive/folders/1nxx561wjP2zvr2NS3bubS8UpwvuVCh6y?usp=drive_link)..
    - Using Textblob to conduct Sentiment Analysis of the tweets.
    - Using other tools to analyze different aspects is welcome.
 
@@ -198,7 +198,9 @@ Reference: textblob: https://textblob.readthedocs.io/en/dev/
 
 Topic 7: Social Media Analysis on Mental Health Discourse 
 ----------------------------
-Social media platforms like Twitter provide valuable insights into the mental well-being of users. In this project, you will delve deep into two datasets containing tweets related to depression and anxiety.
+Data (using your aalto university to access): https://drive.google.com/drive/folders/1lL6DDzwWCTOF6SJI6fIcxrr2CfK3vvXS?usp=drive_link
+
+Social media platforms like Twitter provide valuable insights into the mental well-being of users. In this project, you will delve deep into two datasets containing tweets collected by phrases indicating depression and anxiety.
 
 Suggested Tasks:
 
@@ -208,8 +210,9 @@ Suggested Tasks:
 
 3. Explore one (or more) of these topics:
 
-- Using LIWC (Linguistic Inquiry and Word Count) to conduct a Linguistic analysis of the tweets.
+- Using LIWC (Linguistic Inquiry and Word Count) to conduct a Linguistic analysis of the tweets (if you are seeking a liwc dic file, using your aalto university to access https://drive.google.com/drive/folders/1nxx561wjP2zvr2NS3bubS8UpwvuVCh6y?usp=drive_link).
 - Using Textblob to conduct Sentiment Analysis of the tweets.
 - Using other tools to analyze different aspects is welcome.
 
 Reference: textblob: https://textblob.readthedocs.io/en/dev/
+
