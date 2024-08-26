@@ -50,22 +50,22 @@ Prerequisites
 
 Schedule
 ==================
-* Wed 25.10.2023 14:15–16:00
-* Wed 01.11.2023 14:15–16:00
-* Wed 08.11.2023 14:15–16:00
-* Wed 15.11.2023 14:15–16:00
-* Wed 22.11.2023 14:15–16:00
-* Wed 29.11.2023 14:15–16:00
+* Wed 23.10.2024 14:15–16:00
+* Wed 30.10.2024 14:15–16:00
+* Wed 06.11.2024 14:15–16:00
+* Wed 13.11.2024 14:15–16:00
+* Wed 20.11.2024 14:15–16:00
+* Wed 27.11.2024 14:15–16:00
 * All lectures are held on campus (Location: R008/213a, Otakaari 4).
 
 Exercise Sessions
 ==================
-* Mon 30.10.2023 14:15–15:45
-* Mon 06.11.2023 14:15–15:45
-* Mon 13.11.2023 14:15–15:45
-* Mon 20.11.2023 14:15–15:45
-* Mon 27.11.2023 14:15–15:45
-* Mon 04.12.2023 14:15–15:45 (Questions related to the final project)
+* Mon 28.10.2024 14:15–15:45
+* Mon 04.11.2024 14:15–15:45
+* Mon 11.11.2024 14:15–15:45
+* Mon 18.11.2024 14:15–15:45
+* Mon 25.11.2024 14:15–15:45
+* Mon 02.12.2024 14:15–15:45 (Questions related to the final project)
 * All exercise sessions are held online.
 
 Workload structure
