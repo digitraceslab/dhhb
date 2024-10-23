@@ -1,0 +1,726 @@
+<!DOCTYPE html>
+
+<html lang="en" data-content_root="./">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Project Grading &#8212; CS-C4100  documentation</title>
+    <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=d1102ebc" />
+    <link rel="stylesheet" type="text/css" href="_static/basic.css?v=686e5160" />
+    <link rel="stylesheet" type="text/css" href="_static/alabaster.css?v=27fed22d" />
+    <script src="_static/documentation_options.js?v=5929fcd5"></script>
+    <script src="_static/doctools.js?v=9bcbadda"></script>
+    <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+   
+  <link rel="stylesheet" href="_static/custom.css" type="text/css" />
+  
+
+  
+  
+
+  </head><body>
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          
+
+          <div class="body" role="main">
+            
+  <section id="project-grading">
+<h1>Project Grading<a class="headerlink" href="#project-grading" title="Link to this heading">¶</a></h1>
+<p>This document describes the grading rubric and will serve as a guideline for the project report writing and peer-reviewing process.</p>
+<p>The project total grade is <strong>45 points</strong>, which is divided into the following sections:</p>
+<section id="rubrics">
+<h2>Rubrics<a class="headerlink" href="#rubrics" title="Link to this heading">¶</a></h2>
+<ul class="simple">
+<li><p>As you can see below, <em>Problem Formulation</em>, <em>Methods</em>, and <em>Results</em> sections comprise roughly half of the total grade. Therefore, you must conduct a good quality analysis in these sections in order to pass the project.</p></li>
+<li><p>In the peer-reviewing process, you are required to provide justification at least for the points you reduce.</p></li>
+</ul>
+<nav class="contents local" id="contents">
+<ul class="simple">
+<li><p><a class="reference internal" href="#minimum-requirements-6-points" id="id1">1. Minimum Requirements (6 points)</a></p>
+<ul>
+<li><p><a class="reference internal" href="#minimum-length" id="id2">1.1. Minimum Length</a></p></li>
+<li><p><a class="reference internal" href="#outline" id="id3">1.2. Outline</a></p></li>
+<li><p><a class="reference internal" href="#visualizations" id="id4">1.3. Visualizations</a></p></li>
+<li><p><a class="reference internal" href="#authenticity" id="id5">1.4. Authenticity</a></p></li>
+<li><p><a class="reference internal" href="#code" id="id6">1.5. Code</a></p></li>
+<li><p><a class="reference internal" href="#observations" id="id7">1.6. Observations</a></p></li>
+</ul>
+</li>
+<li><p><a class="reference internal" href="#overall-criteria-6-points" id="id8">2. Overall Criteria (6 points)</a></p>
+<ul>
+<li><p><a class="reference internal" href="#language-and-style" id="id9">2.1. Language and Style</a></p></li>
+<li><p><a class="reference internal" href="#bibliography" id="id10">2.2. Bibliography</a></p></li>
+<li><p><a class="reference internal" href="#figures-and-tables" id="id11">2.3. Figures and Tables</a></p></li>
+</ul>
+</li>
+<li><p><a class="reference internal" href="#introduction-6-points" id="id12">3. Introduction (6 points)</a></p>
+<ul>
+<li><p><a class="reference internal" href="#setting-and-context" id="id13">3.1. Setting and Context</a></p></li>
+<li><p><a class="reference internal" href="#literature-review" id="id14">3.2. Literature Review</a></p></li>
+<li><p><a class="reference internal" href="#research-question" id="id15">3.3. Research Question</a></p></li>
+<li><p><a class="reference internal" href="#contribution-summary" id="id16">3.4. Contribution Summary</a></p></li>
+</ul>
+</li>
+<li><p><a class="reference internal" href="#problem-formulation-4-points" id="id17">4. Problem Formulation (4 points)</a></p>
+<ul>
+<li><p><a class="reference internal" href="#formulation-clarity" id="id18">4.1. Formulation Clarity</a></p></li>
+<li><p><a class="reference internal" href="#proper-scope" id="id19">4.2. Proper Scope</a></p></li>
+</ul>
+</li>
+<li><p><a class="reference internal" href="#dataset-description-6-points" id="id20">5. Dataset Description (6 points)</a></p>
+<ul>
+<li><p><a class="reference internal" href="#dataset-introduction" id="id21">5.1. Dataset Introduction</a></p></li>
+<li><p><a class="reference internal" href="#data-features" id="id22">5.2. Data &amp; Features</a></p></li>
+<li><p><a class="reference internal" href="#data-preprocessing" id="id23">5.3. Data Preprocessing</a></p></li>
+</ul>
+</li>
+<li><p><a class="reference internal" href="#methods-9-points" id="id24">6. Methods (9 points)</a></p>
+<ul>
+<li><p><a class="reference internal" href="#basic-methods" id="id25">6.1. Basic Methods</a></p></li>
+<li><p><a class="reference internal" href="#advanced-methods" id="id26">6.2. Advanced Methods</a></p></li>
+<li><p><a class="reference internal" href="#method-motivation" id="id27">6.3. Method Motivation</a></p></li>
+<li><p><a class="reference internal" href="#documentation-replicability" id="id28">6.4. Documentation &amp; Replicability</a></p></li>
+</ul>
+</li>
+<li><p><a class="reference internal" href="#results-and-conclusion-8-points" id="id29">7. Results and Conclusion (8 points)</a></p>
+<ul>
+<li><p><a class="reference internal" href="#result-interpretation" id="id30">7.1. Result Interpretation</a></p></li>
+<li><p><a class="reference internal" href="#implications" id="id31">7.2. Implications</a></p></li>
+<li><p><a class="reference internal" href="#limitations-shortcomings" id="id32">7.3. Limitations &amp; Shortcomings</a></p></li>
+<li><p><a class="reference internal" href="#future-steps" id="id33">7.4. Future Steps</a></p></li>
+</ul>
+</li>
+</ul>
+</nav>
+<section id="minimum-requirements-6-points">
+<h3><a class="toc-backref" href="#id1" role="doc-backlink">1. Minimum Requirements (6 points)</a><a class="headerlink" href="#minimum-requirements-6-points" title="Link to this heading">¶</a></h3>
+<p>The report should follow the structure presented on the <a class="reference external" href="project.html">Project page</a>. Remember:</p>
+<ul class="simple">
+<li><p>The length of the report should be at least 10 pages (excluding references).</p></li>
+<li><p>At least two figures (produced by you) should be included in the report.</p></li>
+<li><p><strong>DO NOT</strong> include any code or screenshots of your code in the report.</p></li>
+<li><p>The report should be anonymous, <strong>DO NOT</strong> keep any information that might tell your peers who you are.</p></li>
+</ul>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>A penalty of up to <strong>5 points</strong> may be imposed <em>for each</em> criterion listed above if it is not met.</p>
+</div>
+<p>The project topic-specific instructions are described on the project webpage.</p>
+<section id="minimum-length">
+<h4><a class="toc-backref" href="#id2" role="doc-backlink">1.1. Minimum Length</a><a class="headerlink" href="#minimum-length" title="Link to this heading">¶</a></h4>
+<p>Is the report at least 10 pages long (excluding references)?</p>
+<table class="docutils align-default">
+<colgroup>
+<col style="width: 20.0%" />
+<col style="width: 80.0%" />
+</colgroup>
+<tbody>
+<tr class="row-odd"><td><p>No</p></td>
+<td><p>Incomplete (subject to penalty)</p></td>
+</tr>
+<tr class="row-even"><td><p>Yes</p></td>
+<td><p>Pass (1p)</p></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="outline">
+<h4><a class="toc-backref" href="#id3" role="doc-backlink">1.2. Outline</a><a class="headerlink" href="#outline" title="Link to this heading">¶</a></h4>
+<p>Does the report follow the required outline? i.e., 1. Introduction, 2. Problem Formulation, 3. Dataset. 4. Methods, 5. Results, 6. Conclusion &amp; Discussion, and 7. Bibliography/References.</p>
+<table class="docutils align-default">
+<colgroup>
+<col style="width: 60.0%" />
+<col style="width: 40.0%" />
+</colgroup>
+<tbody>
+<tr class="row-odd"><td><p>No. There is some deviation from the outline (e.g. one section is missing)</p></td>
+<td><p>Incomplete (subject to penalty)</p></td>
+</tr>
+<tr class="row-even"><td><p>Yes</p></td>
+<td><p>Pass (1p)</p></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="visualizations">
+<h4><a class="toc-backref" href="#id4" role="doc-backlink">1.3. Visualizations</a><a class="headerlink" href="#visualizations" title="Link to this heading">¶</a></h4>
+<p>Does the report contain at least <strong>two</strong> visualizations? For example, one visualization for the result and one for the dataset.</p>
+<table class="docutils align-default">
+<colgroup>
+<col style="width: 60.0%" />
+<col style="width: 40.0%" />
+</colgroup>
+<tbody>
+<tr class="row-odd"><td><p>No</p></td>
+<td><p>Incomplete (subject to penalty)</p></td>
+</tr>
+<tr class="row-even"><td><p>Yes</p></td>
+<td><p>Pass (1p)</p></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="authenticity">
+<h4><a class="toc-backref" href="#id5" role="doc-backlink">1.4. Authenticity</a><a class="headerlink" href="#authenticity" title="Link to this heading">¶</a></h4>
+<p>Does the report contain entire paragraphs which seem to be AI generated or copy-pasted from another source (other student projects, Wikipedia, research articles, Kaggle, StackOverflow, GitHub, etc.) without proper indication of the source?</p>
+<ul class="simple">
+<li><p>You also cannot copy-paste from the content of the course’s assignments.</p></li>
+<li><p>Citing the reference alone is not sufficient if the text uses the exact words. You should place quotation marks around the copied part.</p></li>
+<li><p>Please remember that direct quotations are seldom used.</p></li>
+</ul>
+<table class="docutils align-default">
+<colgroup>
+<col style="width: 80.0%" />
+<col style="width: 20.0%" />
+</colgroup>
+<tbody>
+<tr class="row-odd"><td><p>No, I did not find indicators for AI generated content or copy-paste of other sources.</p></td>
+<td><p>Pass (1p)</p></td>
+</tr>
+<tr class="row-even"><td><p>Yes, I found parts in the report which have been copy-pasted. In this case, please support your claim it in the comment section.</p></td>
+<td><p>Incomplete (Project Fail)</p></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="code">
+<h4><a class="toc-backref" href="#id6" role="doc-backlink">1.5. Code</a><a class="headerlink" href="#code" title="Link to this heading">¶</a></h4>
+<p>Does the report contain pieces of code, pseudocode, or screenshots of code?</p>
+<table class="docutils align-default">
+<colgroup>
+<col style="width: 60.0%" />
+<col style="width: 40.0%" />
+</colgroup>
+<tbody>
+<tr class="row-odd"><td><p>No</p></td>
+<td><p>Pass (1p)</p></td>
+</tr>
+<tr class="row-even"><td><p>Yes. Please mention in the comment section.</p></td>
+<td><p>Incomplete (subject to penalty)</p></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="observations">
+<h4><a class="toc-backref" href="#id7" role="doc-backlink">1.6. Observations</a><a class="headerlink" href="#observations" title="Link to this heading">¶</a></h4>
+<p>Does the report discuss at least the required number of observations (for example, subject level and community level)? If fewer observations are discussed, does the report discuss why?</p>
+<table class="docutils align-default">
+<colgroup>
+<col style="width: 80.0%" />
+<col style="width: 20.0%" />
+</colgroup>
+<tbody>
+<tr class="row-odd"><td><p>No. At least one of the required observations is missing (without justified reason).</p></td>
+<td><p>Incomplete (subject to penalty)</p></td>
+</tr>
+<tr class="row-even"><td><p>Yes</p></td>
+<td><p>Pass (1p)</p></td>
+</tr>
+</tbody>
+</table>
+</section>
+</section>
+<section id="overall-criteria-6-points">
+<h3><a class="toc-backref" href="#id8" role="doc-backlink">2. Overall Criteria (6 points)</a><a class="headerlink" href="#overall-criteria-6-points" title="Link to this heading">¶</a></h3>
+<p>Pay attention to the language and the structure of the report (chapters and paragraphs are well organized).  Ensure that the references are adequate and well-formatted and that the visualizations are informative and correctly used.</p>
+<section id="language-and-style">
+<h4><a class="toc-backref" href="#id9" role="doc-backlink">2.1. Language and Style</a><a class="headerlink" href="#language-and-style" title="Link to this heading">¶</a></h4>
+<p>Rate the use of language and the structure of the report.</p>
+<table class="docutils align-default">
+<colgroup>
+<col style="width: 90.0%" />
+<col style="width: 10.0%" />
+</colgroup>
+<tbody>
+<tr class="row-odd"><td><p>The quality of presentation and use of language is very poor.</p></td>
+<td><p>0</p></td>
+</tr>
+<tr class="row-even"><td><p>The language is poor or the report is not clearly structured.</p></td>
+<td><p>1p</p></td>
+</tr>
+<tr class="row-odd"><td><p>The language is clear and the report is well structured.</p></td>
+<td><p>2p</p></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="bibliography">
+<h4><a class="toc-backref" href="#id10" role="doc-backlink">2.2. Bibliography</a><a class="headerlink" href="#bibliography" title="Link to this heading">¶</a></h4>
+<p>Have the references been used correctly and where necessary?</p>
+<table class="docutils align-default">
+<colgroup>
+<col style="width: 90.0%" />
+<col style="width: 10.0%" />
+</colgroup>
+<tbody>
+<tr class="row-odd"><td><p>The references are incomplete or they do not follow a standard format/style.</p></td>
+<td><p>0p</p></td>
+</tr>
+<tr class="row-even"><td><p>The references are partly missing or inconsistently used.</p></td>
+<td><p>1p</p></td>
+</tr>
+<tr class="row-odd"><td><p>The references have been used correctly and adequately.</p></td>
+<td><p>2p</p></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="figures-and-tables">
+<h4><a class="toc-backref" href="#id11" role="doc-backlink">2.3. Figures and Tables</a><a class="headerlink" href="#figures-and-tables" title="Link to this heading">¶</a></h4>
+<p>Rate the quality of report figures/data visualization.</p>
+<ul class="simple">
+<li><p>The caption should be informative, in the appropriate place, and the figure/table should be referred to in the text.</p></li>
+<li><p>The axis should be labeled, and the title should be informative.</p></li>
+<li><p>The figure/table should be clear and easy to read.</p></li>
+</ul>
+<table class="docutils align-default">
+<colgroup>
+<col style="width: 90.0%" />
+<col style="width: 10.0%" />
+</colgroup>
+<tbody>
+<tr class="row-odd"><td><p>The quality of the figures is poor, i.e., missing labels or titles, unsuitable data visualization techniques.</p></td>
+<td><p>0p</p></td>
+</tr>
+<tr class="row-even"><td><p>The overall quality is good. However, there are minor issues with the figures.</p></td>
+<td><p>1p</p></td>
+</tr>
+<tr class="row-odd"><td><p>The overall quality is very good, and the visualizations support telling the story and communicating key pieces of information.</p></td>
+<td><p>2p</p></td>
+</tr>
+</tbody>
+</table>
+</section>
+</section>
+<section id="introduction-6-points">
+<h3><a class="toc-backref" href="#id12" role="doc-backlink">3. Introduction (6 points)</a><a class="headerlink" href="#introduction-6-points" title="Link to this heading">¶</a></h3>
+<p>This chapter introduces the reader to the setting, context, and some key literature. Do refer to at least 3 relevant research papers in this section. The introduction should give an idea about the state-of-the-art (the known and the unknown). The section should introduce the problem, the methods, and the key results in a condensed way. In the introduction, you should motivate the project’s research question and present it clearly (in a very brief manner, the next section “Problem formulation” contains a detailed description of the problem and the questions that are being answered in the project). After reading the introduction, the reader should understand what you have done, why, and the outcome without reading the rest of the report.</p>
+<section id="setting-and-context">
+<h4><a class="toc-backref" href="#id13" role="doc-backlink">3.1. Setting and Context</a><a class="headerlink" href="#setting-and-context" title="Link to this heading">¶</a></h4>
+<p>Does the introduction provide the reader with the setting and the context? Is the key literature covered?</p>
+<table class="docutils align-default">
+<colgroup>
+<col style="width: 90.0%" />
+<col style="width: 10.0%" />
+</colgroup>
+<tbody>
+<tr class="row-odd"><td><p>No</p></td>
+<td><p>0p</p></td>
+</tr>
+<tr class="row-even"><td><p>The setting or context is not introduced properly or key literature references are missing.</p></td>
+<td><p>1p</p></td>
+</tr>
+<tr class="row-odd"><td><p>Yes</p></td>
+<td><p>2p</p></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="literature-review">
+<h4><a class="toc-backref" href="#id14" role="doc-backlink">3.2. Literature Review</a><a class="headerlink" href="#literature-review" title="Link to this heading">¶</a></h4>
+<p>Does the introduction cover the relevant literature on the subject?</p>
+<table class="docutils align-default">
+<colgroup>
+<col style="width: 90.0%" />
+<col style="width: 10.0%" />
+</colgroup>
+<tbody>
+<tr class="row-odd"><td><p>There are too few references or the references are not relevant to the subject.</p></td>
+<td><p>0p</p></td>
+</tr>
+<tr class="row-even"><td><p>Yes. The literature review is relevant and covers the key references.</p></td>
+<td><p>1p</p></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="research-question">
+<h4><a class="toc-backref" href="#id15" role="doc-backlink">3.3. Research Question</a><a class="headerlink" href="#research-question" title="Link to this heading">¶</a></h4>
+<p>Does the introduction motivate and present the research question?</p>
+<table class="docutils align-default">
+<colgroup>
+<col style="width: 90.0%" />
+<col style="width: 10.0%" />
+</colgroup>
+<tbody>
+<tr class="row-odd"><td><p>The research question is not clearly stated or not well-motivated.</p></td>
+<td><p>0p</p></td>
+</tr>
+<tr class="row-even"><td><p>Yes. The research question is clearly stated and well-motivated.</p></td>
+<td><p>1p</p></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="contribution-summary">
+<h4><a class="toc-backref" href="#id16" role="doc-backlink">3.4. Contribution Summary</a><a class="headerlink" href="#contribution-summary" title="Link to this heading">¶</a></h4>
+<p>Are methods and key results presented in a condensed way?</p>
+<table class="docutils align-default">
+<colgroup>
+<col style="width: 90.0%" />
+<col style="width: 10.0%" />
+</colgroup>
+<tbody>
+<tr class="row-odd"><td><p>No.</p></td>
+<td><p>0p</p></td>
+</tr>
+<tr class="row-even"><td><p>Either the methods or the key results are not sufficiently presented.</p></td>
+<td><p>1p</p></td>
+</tr>
+<tr class="row-odd"><td><p>Yes.</p></td>
+<td><p>2p</p></td>
+</tr>
+</tbody>
+</table>
+</section>
+</section>
+<section id="problem-formulation-4-points">
+<h3><a class="toc-backref" href="#id17" role="doc-backlink">4. Problem Formulation (4 points)</a><a class="headerlink" href="#problem-formulation-4-points" title="Link to this heading">¶</a></h3>
+<p>Try to formulate the research problem so that it is easy to understand what the project work is about. The research problem should the relevant to the field of study, and the suggested solution manageable. The solution should address some significant, less-explored aspects of the problem.</p>
+<section id="formulation-clarity">
+<h4><a class="toc-backref" href="#id18" role="doc-backlink">4.1. Formulation Clarity</a><a class="headerlink" href="#formulation-clarity" title="Link to this heading">¶</a></h4>
+<p>Is the research problem clearly formulated?</p>
+<table class="docutils align-default">
+<colgroup>
+<col style="width: 90.0%" />
+<col style="width: 10.0%" />
+</colgroup>
+<tbody>
+<tr class="row-odd"><td><p>No.</p></td>
+<td><p>0p</p></td>
+</tr>
+<tr class="row-even"><td><p>Yes.</p></td>
+<td><p>1p</p></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="proper-scope">
+<h4><a class="toc-backref" href="#id19" role="doc-backlink">4.2. Proper Scope</a><a class="headerlink" href="#proper-scope" title="Link to this heading">¶</a></h4>
+<p>Is the research problem relevant, manageable, and addressing relevant aspects?</p>
+<table class="docutils align-default">
+<colgroup>
+<col style="width: 90.0%" />
+<col style="width: 10.0%" />
+</colgroup>
+<tbody>
+<tr class="row-odd"><td><p>The problem formulation demonstrates little to no ability to define a manageable and doable topic.</p></td>
+<td><p>0p</p></td>
+</tr>
+<tr class="row-even"><td><p>The formulation defines a problem that, while manageable/doable, is too narrowly focused and leaves out relevant aspects of the problem or so broad that, while doable, cannot be adequately addressed.</p></td>
+<td><p>1p</p></td>
+</tr>
+<tr class="row-odd"><td><p>The problem formulation defines a focused and manageable/doable problem that appropriately addresses relevant aspects of the problem.</p></td>
+<td><p>2p</p></td>
+</tr>
+<tr class="row-even"><td><p>The problem formulation identifies an interesting, focused, and manageable problem that addresses potentially significant yet previously less-explored aspects of the problem.</p></td>
+<td><p>3p</p></td>
+</tr>
+</tbody>
+</table>
+</section>
+</section>
+<section id="dataset-description-6-points">
+<h3><a class="toc-backref" href="#id20" role="doc-backlink">5. Dataset Description (6 points)</a><a class="headerlink" href="#dataset-description-6-points" title="Link to this heading">¶</a></h3>
+<p>The dataset should be described in detail, containing information on types of data, amount of data, number of subjects, missing data, frequency of data, length and methods of data collection, etc. The description should include the dataset’s source, how the data was gathered or recorded, for how long, and the number of data points (observations) contained in that set. It should also explain what the data points represent (e.g., daily aggregated observations having multiple passively sampled activity-related features for each subject). The description should also include information on which data features were used for the analysis, why these features were selected, and how data was preprocessed.</p>
+<section id="dataset-introduction">
+<h4><a class="toc-backref" href="#id21" role="doc-backlink">5.1. Dataset Introduction</a><a class="headerlink" href="#dataset-introduction" title="Link to this heading">¶</a></h4>
+<p>Does the report clearly describe the dataset which is used for data analysis?</p>
+<table class="docutils align-default">
+<colgroup>
+<col style="width: 90.0%" />
+<col style="width: 10.0%" />
+</colgroup>
+<tbody>
+<tr class="row-odd"><td><p>The description of the dataset is unclear or insufficient.</p></td>
+<td><p>0p</p></td>
+</tr>
+<tr class="row-even"><td><p>Yes. The description of the dataset is clear and detailed.</p></td>
+<td><p>1p</p></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="data-features">
+<h4><a class="toc-backref" href="#id22" role="doc-backlink">5.2. Data &amp; Features</a><a class="headerlink" href="#data-features" title="Link to this heading">¶</a></h4>
+<p>Does the report clearly explain the data point properties and features used for the analysis?</p>
+<table class="docutils align-default">
+<colgroup>
+<col style="width: 90.0%" />
+<col style="width: 10.0%" />
+</colgroup>
+<tbody>
+<tr class="row-odd"><td><p>The report does not include any description of the features that characterize a data point.</p></td>
+<td><p>0p</p></td>
+</tr>
+<tr class="row-even"><td><p>Partially met.</p></td>
+<td><p>1p</p></td>
+</tr>
+<tr class="row-odd"><td><p>Yes. The report includes a full description of the features characterizing a data point.</p></td>
+<td><p>2p</p></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="data-preprocessing">
+<h4><a class="toc-backref" href="#id23" role="doc-backlink">5.3. Data Preprocessing</a><a class="headerlink" href="#data-preprocessing" title="Link to this heading">¶</a></h4>
+<p>Does the report clearly describe the data preprocessing steps and give the reasons?</p>
+<table class="docutils align-default">
+<colgroup>
+<col style="width: 90.0%" />
+<col style="width: 10.0%" />
+</colgroup>
+<tbody>
+<tr class="row-odd"><td><p>No data preprocessing and no proper reasons for that.</p></td>
+<td><p>0p</p></td>
+</tr>
+<tr class="row-even"><td><p>The description of the data preprocessing is not clearly stated or not well-motivated</p></td>
+<td><p>1p</p></td>
+</tr>
+<tr class="row-odd"><td><p>The description of the data preprocessing is clearly stated, but the choices of preprocessing methods are not justified or sufficient.</p></td>
+<td><p>2p</p></td>
+</tr>
+<tr class="row-even"><td><p>The description is clearly stated, and the choices of preprocessing methods are mature and well-motivated.</p></td>
+<td><p>3p</p></td>
+</tr>
+</tbody>
+</table>
+</section>
+</section>
+<section id="methods-9-points">
+<h3><a class="toc-backref" href="#id24" role="doc-backlink">6. Methods (9 points)</a><a class="headerlink" href="#methods-9-points" title="Link to this heading">¶</a></h3>
+<p>The methods section should describe the analysis methods, for example, those covered in the course programming assignments, that are used in the project to obtain the results. These methods should include descriptive and data analysis methods as well as other techniques such as clustering, dimension reduction, and classification methods, depending on the task. However, you are encouraged to go beyond and explore more sophisticated methods. The choice of the methods used should be justified in the report. The usage of the methods should be documented and attached to the report.</p>
+<section id="basic-methods">
+<h4><a class="toc-backref" href="#id25" role="doc-backlink">6.1. Basic Methods</a><a class="headerlink" href="#basic-methods" title="Link to this heading">¶</a></h4>
+<p>Does the report use basic descriptive statistics and data visualization methods appropriately?</p>
+<table class="docutils align-default">
+<colgroup>
+<col style="width: 90.0%" />
+<col style="width: 10.0%" />
+</colgroup>
+<tbody>
+<tr class="row-odd"><td><p>No.</p></td>
+<td><p>0p</p></td>
+</tr>
+<tr class="row-even"><td><p>Some methods are used, but not justified or not sufficient.</p></td>
+<td><p>1p</p></td>
+</tr>
+<tr class="row-odd"><td><p>Yes. The basic statistics and visualization methods are properly used and justified.</p></td>
+<td><p>2p</p></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="advanced-methods">
+<h4><a class="toc-backref" href="#id26" role="doc-backlink">6.2. Advanced Methods</a><a class="headerlink" href="#advanced-methods" title="Link to this heading">¶</a></h4>
+<p>In addition to basic descriptive statistics and data visualization methods, have some others been used in the analysis (e.g. machine learning or statistical method)?</p>
+<table class="docutils align-default">
+<colgroup>
+<col style="width: 90.0%" />
+<col style="width: 10.0%" />
+</colgroup>
+<tbody>
+<tr class="row-odd"><td><p>No. Nothing beyond the basic analysis methods have been used.</p></td>
+<td><p>0p</p></td>
+</tr>
+<tr class="row-even"><td><p>Only one additional method was used.</p></td>
+<td><p>1p</p></td>
+</tr>
+<tr class="row-odd"><td><p>Additional methods have been used (it suffices to report the results from the best-performing methods only).</p></td>
+<td><p>2p</p></td>
+</tr>
+<tr class="row-even"><td><p>Yes. advanced machine learning or statistical methods (e.g., deep neural networks and hypothesis testing) have been used and the results have been reported.</p></td>
+<td><p>3p</p></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="method-motivation">
+<h4><a class="toc-backref" href="#id27" role="doc-backlink">6.3. Method Motivation</a><a class="headerlink" href="#method-motivation" title="Link to this heading">¶</a></h4>
+<p>Is the use of chosen methods well-motivated?</p>
+<table class="docutils align-default">
+<colgroup>
+<col style="width: 90.0%" />
+<col style="width: 10.0%" />
+</colgroup>
+<tbody>
+<tr class="row-odd"><td><p>The choice of the methods is not motivated.</p></td>
+<td><p>0p</p></td>
+</tr>
+<tr class="row-even"><td><p>The usage of the methods is motivated, but the suitability of the methods for the project is not fully justified.</p></td>
+<td><p>1p</p></td>
+</tr>
+<tr class="row-odd"><td><p>Yes. The choice of methods is well-motivated and justified for the project.</p></td>
+<td><p>2p</p></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="documentation-replicability">
+<h4><a class="toc-backref" href="#id28" role="doc-backlink">6.4. Documentation &amp; Replicability</a><a class="headerlink" href="#documentation-replicability" title="Link to this heading">¶</a></h4>
+<p>Are the methods well described and documented, i.e., could you be able to try to replicate methods based on the description?</p>
+<table class="docutils align-default">
+<colgroup>
+<col style="width: 90.0%" />
+<col style="width: 10.0%" />
+</colgroup>
+<tbody>
+<tr class="row-odd"><td><p>The methods are not well or vaguely described.</p></td>
+<td><p>0p</p></td>
+</tr>
+<tr class="row-even"><td><p>The methods are not described, or the documentation is lacking.</p></td>
+<td><p>1p</p></td>
+</tr>
+<tr class="row-odd"><td><p>Yes. The methods are well-described and documented.</p></td>
+<td><p>2p</p></td>
+</tr>
+</tbody>
+</table>
+</section>
+</section>
+<section id="results-and-conclusion-8-points">
+<h3><a class="toc-backref" href="#id29" role="doc-backlink">7. Results and Conclusion (8 points)</a><a class="headerlink" href="#results-and-conclusion-8-points" title="Link to this heading">¶</a></h3>
+<p>The results and conclusion chapter describes your findings in detail, explaining what these results mean, the implications of these findings, the limitations of your analysis, and some possible future steps.</p>
+<section id="result-interpretation">
+<h4><a class="toc-backref" href="#id30" role="doc-backlink">7.1. Result Interpretation</a><a class="headerlink" href="#result-interpretation" title="Link to this heading">¶</a></h4>
+<p>Is the main result apparent and clearly interpreted, answering the stated project problem?</p>
+<table class="docutils align-default">
+<colgroup>
+<col style="width: 90.0%" />
+<col style="width: 10.0%" />
+</colgroup>
+<tbody>
+<tr class="row-odd"><td><p>No.</p></td>
+<td><p>0p</p></td>
+</tr>
+<tr class="row-even"><td><p>The result is not clearly interpreted, or it does not answer the stated problem.</p></td>
+<td><p>1p</p></td>
+</tr>
+<tr class="row-odd"><td><p>Yes. The result is clearly interpreted, and it answers the stated problem.</p></td>
+<td><p>2p</p></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="implications">
+<h4><a class="toc-backref" href="#id31" role="doc-backlink">7.2. Implications</a><a class="headerlink" href="#implications" title="Link to this heading">¶</a></h4>
+<p>Are the implications of the results discussed?</p>
+<table class="docutils align-default">
+<colgroup>
+<col style="width: 90.0%" />
+<col style="width: 10.0%" />
+</colgroup>
+<tbody>
+<tr class="row-odd"><td><p>No.</p></td>
+<td><p>0p</p></td>
+</tr>
+<tr class="row-even"><td><p>The implications of the results have been considered only superficially.</p></td>
+<td><p>1p</p></td>
+</tr>
+<tr class="row-odd"><td><p>Yes. The implications of the results have been considered thoroughly.</p></td>
+<td><p>2p</p></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="limitations-shortcomings">
+<h4><a class="toc-backref" href="#id32" role="doc-backlink">7.3. Limitations &amp; Shortcomings</a><a class="headerlink" href="#limitations-shortcomings" title="Link to this heading">¶</a></h4>
+<p>Are the main limitations and shortcomings of the analysis evaluated?</p>
+<table class="docutils align-default">
+<colgroup>
+<col style="width: 90.0%" />
+<col style="width: 10.0%" />
+</colgroup>
+<tbody>
+<tr class="row-odd"><td><p>No. Neither the limitations nor the analysis weaknesses have been evaluated.</p></td>
+<td><p>0p</p></td>
+</tr>
+<tr class="row-even"><td><p>The main limitations or analysis flaws have not been sufficiently evaluated.</p></td>
+<td><p>1p</p></td>
+</tr>
+<tr class="row-odd"><td><p>The main limitations of the analysis are evaluated extensively, and the shortcomings are acknowledged and discussed.</p></td>
+<td><p>2p</p></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="future-steps">
+<h4><a class="toc-backref" href="#id33" role="doc-backlink">7.4. Future Steps</a><a class="headerlink" href="#future-steps" title="Link to this heading">¶</a></h4>
+<p>Are ideas for future analysis presented?</p>
+<table class="docutils align-default">
+<colgroup>
+<col style="width: 90.0%" />
+<col style="width: 10.0%" />
+</colgroup>
+<tbody>
+<tr class="row-odd"><td><p>No.</p></td>
+<td><p>0p</p></td>
+</tr>
+<tr class="row-even"><td><p>The ideas for future analysis are very limited.</p></td>
+<td><p>1p</p></td>
+</tr>
+<tr class="row-odd"><td><p>The ideas for future analysis are presented, including ideas to alleviate the analysis limitations.</p></td>
+<td><p>2p</p></td>
+</tr>
+</tbody>
+</table>
+</section>
+</section>
+</section>
+</section>
+
+
+          </div>
+          
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="Main">
+        <div class="sphinxsidebarwrapper">
+<h1 class="logo"><a href="index.html">CS-C4100</a></h1>
+
+
+
+
+
+
+
+
+
+<search id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false"/>
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</search>
+<script>document.getElementById('searchbox').style.display = "block"</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="footer">
+      &#169;2024, CS-C4100 Course Team.
+      
+      |
+      Powered by <a href="https://www.sphinx-doc.org/">Sphinx 8.1.3</a>
+      &amp; <a href="https://alabaster.readthedocs.io">Alabaster 1.0.0</a>
+      
+      |
+      <a href="_sources/rubrics.rst.txt"
+          rel="nofollow">Page source</a>
+    </div>
+
+    
+
+    
+  </body>
+</html>

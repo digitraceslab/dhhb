@@ -4,12 +4,15 @@
    contain the root `toctree` directive.
 
 Project
-*********************************************************************
+*******
 
 .. toctree::
    :maxdepth: 2
    :caption: Contents:
 
+.. contents:: On this page:
+   :local:
+   :depth: 1
 
 .. # define a hard line break for HTML
 .. |br| raw:: html
@@ -18,36 +21,38 @@ Project
 
 
 1. Project Description
-===================
-
+======================
 
 Requirements
--------------
+------------
 * Choose one topic that interests you.
 * Explore the data, make an analysis and draw conclusions about what you find.
-* Write a report in the corresponding format. (see the **Report Format** section below)
+* Write a report in the corresponding format (see the **Report Format** section below).
 
-Submission Instruction
+Submission Instructions
 -----------------------
 
 * Attach all the codes in a zip archive, including your pdf report, and a brief **README** file on how to set the environment (if needed) and run your code.
 * Submit the zip archive to the corresponding MyCourses submission box under the **Project** section.
+* Note that the use of AI tools (e.g., ChatGPT) for generating text or computer code is **strictly forbidden** and is considered cheating/plagiarism.
+* The submissions will be graded based on the rubric provided in the `Project Grading <rubrics.html>`_ page.
+* You are strongly advised to focus on the quality of your analysis rather than the quantity of the word count.
 
 2. Report
-=================
+=========
 
 Report Format
-----------------------
-* Minimum 10 pages (without references). The last page(s) should contain references.
+-------------
+* Minimum 10 pages (excluding references). The last page(s) should contain references.
 * Reference page(s) does **NOT** count towards the total number of pages.
 * Including minimum 2 plots (must be meaningful and with proper size).
 * Font size 12, single column. written in English.
 * Report must be in **pdf** format.
 * The report should be **anonymous**, **DO NOT** keep any information that might tell your peers who you are.
-* Do not include any code/pseudocode/screenshots of your code in the report.
+* **DO NOT** include any code/pseudocode/screenshots of your code in the report.
 
 Report Outline
--------------------
+--------------
 * Introduction (context setting up, related work or literature review, etc.)
 * Problem Formulation (describe what is the issue that your want to solve)
 * Dataset Description (data types, missing data, observations, etc.)
@@ -59,21 +64,21 @@ Report Outline
 Guide of how to make proper references with APA style: https://libguides.murdoch.edu.au/APA
 
 3. Topics
-=================
+=========
 Here you are given a list of options for your final project. You can either explore one of these or a dataset of your choice. If you decide to go with your own choice of the dataset, you must get it approved by the course staff within the first two weeks.
 The tasks and analyses under each topic are suggestions to make your work easier. They might not be enough for a complete project. If you want to get full points, please either conduct your analysis in addition to the suggested tasks or give a in-depth study of the given tasks.
 
 
 
 Topic 1: Daily Activity Analysis with Fitbit Tracker Data
--------------------------------------
-Data: https://www.kaggle.com/arashnic/fitbit
+---------------------------------------------------------
+**Data:** https://www.kaggle.com/arashnic/fitbit
 
 You are given the data that was collected using the fitbit wristwatch. It describes the daily activities of 30 volunteers for 31 consecutive days. In the dailyActivity_merged.csv file you can find the overview information of the daily activities of the user. In other files which names start with "daily" the daily overview of the tracked data is presented.
 
 In the "hourly" and "minute" files with the tracked data you can find how these actions are distributed around the day. weightLogInfo_merged.csv provides the background information about the weight of the user.
 
-Suggested Tasks:
+**Suggested Tasks:**
 
 1. Clean the data, remove N/A values and outliers if there are such
 2. Analyse the data and plot interesting observations:
@@ -86,38 +91,42 @@ Suggested Tasks:
 
 Inspiration: https://www.freecodecamp.org/news/how-i-analyzed-the-data-from-my-fitbit-to-improve-my-overall-health-a2e36426d8f9/
 
+Topic 2: Depression Severity Analysis Using Reported Health Data
+----------------------------------------------------------------
+**Data:** https://zenodo.org/records/5085146
 
-Topic 2: Depression Analysis
------------------------------
-Data: https://www.kaggle.com/arashnic/the-depression-dataset
+In this project, you will explore the data collected from a 1-year longitudinal study called the DiSCover Project.
+The dataset contains person-generated health data (PGHD) focused on tracking individual changes in depression status over time.
+The dataset comprises >150 columns, including aggregated features derived from wearable data (e.g., sleep and steps), lifestyle surveys, and Patient Health Questionnaire-9 (PHQ-9) monthly questionnaire scores. You are encouraged to choose an appropriate subset of features that align with your analysis goals.
 
-You are given the data that consists of the observations of the activity of the patients with depression (condition group) and without it (control group). The observations include the activity measurements from the actigraph watch recorded every minute during approximately 5-20 days. 
+**Suggested Tasks:**
 
-The scores.csv provides information about the background data of the participants, such as gender (1 or 2 for female or male), age group, length of education, marital status, employment status, type (afftype (1: bipolar II, 2: unipolar depressive, 3: bipolar I), melanch (1: melancholia, 2: no melancholia), inpatient (1: inpatient, 2: outpatient)) and severity (madrs1 (MADRS score when measurement started), madrs2 (MADRS when measurement stopped)) of the depression (only for the condition group).
+1. Clean the dataset and address issues such as handling missing values in PHQ-9 values, and aggregating the existing data for further analyses.
 
-Suggested Tasks:
+2. Analyze the data to explore key trends, such as:
 
-1. Clean the data, remove N/A values if there are such, or replace the missing values with predictions
-
-2. Analyse the data and plot interesting observations:
-
-   - Minimum one observation on the group level
-   - Minimum one observation on the subject level
-   - *Note! Use the background information* 
+   - Investigating patterns in depression scores across time intervals.
+   - Examining relationships between wearable data (steps, sleep) and changes in PHQ-9 scores.
 
 3. Explore one (or more) of these topics:
 
-   - Make a comparison between control and condition groups.
-   - Make a comparison between different types of depression.
-   - Your own idea is welcome.
+   - Conduct a time-series analysis of depression status changes over 3-month intervals to see how wearable PGHD and lifestyle changes correlate with PHQ-9 score variations.
+   - Use machine learning models to predict depression severity based on the combination of wearable data and self-reported survey responses (see the inspiration link below).
+   - Apply clustering techniques to group participants based on behavioral and lifestyle data, and investigate how they relate to depression severity scores.
+   - Investigate the correlation between demographic factors, medication changes, and lifestyle modifications with depression status, identifying potential markers of mental health outcomes.
+   - Your own interesting ideas are welcome. Get creative!
+
+**Reference:** DiSCover Project: https://clinicaltrials.gov/ct2/show/NCT03421223
+
+**Inspiration:** https://dl.acm.org/doi/10.1145/3469266.3469878
 
 Topic 3: Sleep Analysis
------------------------------
-Data: https://www.kaggle.com/danagerous/sleep-data
+-----------------------
+**Data:** https://www.kaggle.com/danagerous/sleep-data
 
 You are given the data that was collected through the Sleep Cycle app from Northcube on iOS between 2014-2018 for one user. In the dataset you can find the sleep quality, time spent in bed, general mood on waking up, notes about the events that could influence the sleep cycle and heartbeat.
 
-Suggested Tasks:
+**Suggested Tasks:**
 
 1. Clean the data, remove N/A values if there are such, or replace the missing values with predictions
 2. Analyse the data and plot interesting observations:
@@ -126,12 +135,12 @@ Suggested Tasks:
 4. Conclude your results.
 
 Topic 4: Interaction Analysis with Apple Watch Data
------------------------------
-Data: https://physionet.org/content/sleep-accel/1.0.0/
+---------------------------------------------------
+**Data:** https://physionet.org/content/sleep-accel/1.0.0/
 
 You are given the data that consists of motion (acceleration), heart rate and steps was collected using Apple Watch and labeled sleep recorded from polysomnography (0-5, wake = 0, N1 = 1, N2 = 2, N3 = 3, REM = 5) for 31 participants during 7 to 14 days period. Date is recorded in seconds since PSG start.
 
-Suggested Tasks:
+**Suggested Tasks:**
 
 1. Clean the data, remove N/A values if there are such, or replace the missing values with predictions
 2. Analyse the data and plot interesting observations:
@@ -140,18 +149,18 @@ Suggested Tasks:
 3. Explore one (or more) of these topics:
    - Create a model prediction if the individual is asleep or awake.
    - Create a model prediction if the individual's sleep cycle.
-   - Your own idea is welcome.
+   - Your own ideas are welcome.
 4. Make a conclusion about what are the conditions which support longer deep sleep phase, thus influence better quality sleep.
 
 *Note! Please don't use labeled sleep values as parameters in your analysis, but rather treat them as a label.*
 
 Topic 5: Network Study
-----------------------------
-Data: https://figshare.com/articles/dataset/The_Copenhagen_Networks_Study_interaction_data/7267433/1
+----------------------
+**Data:** https://figshare.com/articles/dataset/The_Copenhagen_Networks_Study_interaction_data/7267433/1
 
 You are given the network data that was gathered using smartphones. The subjects are interacting via phone calls, SMS messages, social media (they are or are not Facebook friends) and in person (bt_symmetric.csv). The data also provides the timestamp of when the communication has occurred and the gender of the subjects.
 
-Suggested Tasks:
+**Suggested Tasks:**
 
 1. Clean the data, remove N/A values if there are such, or replace the missing values with predictions
 
@@ -172,12 +181,12 @@ Suggested Tasks:
 Inspiration: https://programminghistorian.org/en/lessons/exploring-and-analyzing-network-data-with-python
 
 Topic 6: Social Media Analysis on Vaccines Discourse 
-----------------------------
-Data: https://www.kaggle.com/datasets/komalkhetlani/tweets-about-covid19-all-over-the-world
+----------------------------------------------------
+**Data:** https://www.kaggle.com/datasets/komalkhetlani/tweets-about-covid19-all-over-the-world
 
 You are given the Twitter posts data that contains tweets from the all over Twitter accounts of the world that are talking about Covid-19. The dataset provide features such as original tweet, language and created time. 
 
-Suggested Tasks:
+**Suggested Tasks:**
 
 1. Clean the dataset, removing any URLs, mentions, special characters, and N/A values if present.
 
@@ -194,25 +203,29 @@ Suggested Tasks:
    - Using Textblob to conduct Sentiment Analysis of the tweets.
    - Using other tools to analyze different aspects is welcome.
 
-Reference: textblob: https://textblob.readthedocs.io/en/dev/
+**Reference:** textblob: https://textblob.readthedocs.io/en/dev/
 
-Topic 7: Social Media Analysis on Mental Health Discourse 
-----------------------------
-Data: https://drive.google.com/drive/folders/1lL6DDzwWCTOF6SJI6fIcxrr2CfK3vvXS?usp=drive_link
+Topic 7: Reddit Data vs. Mental Health in the COVID-19 Pandemic
+---------------------------------------------------------------
+**Data:** https://zenodo.org/records/3941387
 
-Social media platforms like Twitter provide valuable insights into the mental well-being of users. In this project, you will delve deep into two datasets containing tweets collected by phrases indicating depression and anxiety.
+This dataset enables a comprehensive look into how mental health support groups on numerous subreddits were impacted by the onset of COVID-19. We can gain insights into shifts in discourse and user behavior during the pandemic by analyzing posts from Jan to Apr 2020 and comparing them to baseline posts from earlier timeframes (2018-2019).
 
-Suggested Tasks:
+**Suggested Tasks:**
 
-1. Clean the dataset and remove ULR, N/A values if there are such, mentions, and special characters.
+1. The dataset is large (~3GB) and diverse; therefore, implement a justified strategy to select a manageable subset of the dataset for analysis (based on criteria such as specific subreddits, post frequency, etc.). Ensure the selected subset is representative of the larger dataset.
 
-2. Analyze the data and plot interesting observations: - At least two observations surrounding depression versus anxiety, and explore any noteworthy differences or similarities.
+2. Clean the dataset and address issues such as handling missing values, removing irrelevant columns, and preprocessing text data for analysis.
 
-3. Explore one (or more) of these topics:
+3. Analyze COVID-19 impact by comparing posts in the appropriate time frames. Explore shifts in topics, sentiment, and the way mental health concerns (e.g., anxiety, depression) were discussed pre- and post-COVID-19 outbreak.
 
-- Using LIWC (Linguistic Inquiry and Word Count) to conduct a Linguistic analysis of the tweets (if you are seeking a liwc dic file,  access https://drive.google.com/drive/folders/1nxx561wjP2zvr2NS3bubS8UpwvuVCh6y?usp=drive_link).
-- Using Textblob to conduct Sentiment Analysis of the tweets.
-- Using other tools to analyze different aspects is welcome.
+4. Explore one (or more) of these topics:
 
-Reference: textblob: https://textblob.readthedocs.io/en/dev/
+   - Conduct a linguistic analysis or a sentiment analysis of posts before and during the pandemic.
+   - Perform unsupervised clustering to identify conversation clusters (such as Seeking Advice, Suicidality, and Medication) and how their representation varied across mental health subreddits.
+   - Investigate user behavior trends, such as changes in post frequency, length, and engagement during the peak COVID-19 months.
+   - Your own cool, challenging idea is welcome!
 
+**Inspiration:** https://osf.io/preprints/psyarxiv/xvwcy
+
+**Reference:** textblob: https://textblob.readthedocs.io/en/dev/

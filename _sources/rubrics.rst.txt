@@ -1,0 +1,442 @@
+Project Grading
+***************
+
+This document describes the grading rubric and will serve as a guideline for the project report writing and peer-reviewing process.
+
+The project total grade is **45 points**, which is divided into the following sections:
+
+Rubrics
+=======
+
+* As you can see below, *Problem Formulation*, *Methods*, and *Results* sections comprise roughly half of the total grade. Therefore, you must conduct a good quality analysis in these sections in order to pass the project.
+* In the peer-reviewing process, you are required to provide justification at least for the points you reduce.
+
+.. contents:: :local:
+
+1. Minimum Requirements (6 points)
+----------------------------------
+The report should follow the structure presented on the `Project page <project.html>`_. Remember:
+
+* The length of the report should be at least 10 pages (excluding references).
+
+* At least two figures (produced by you) should be included in the report.
+
+* **DO NOT** include any code or screenshots of your code in the report.
+
+* The report should be anonymous, **DO NOT** keep any information that might tell your peers who you are.
+
+.. warning::
+  A penalty of up to **5 points** may be imposed *for each* criterion listed above if it is not met.
+
+The project topic-specific instructions are described on the project webpage.
+
+1.1. Minimum Length
+~~~~~~~~~~~~~~~~~~~
+Is the report at least 10 pages long (excluding references)?
+
+.. list-table::
+   :widths: 20 80
+   :header-rows: 0
+
+   * - No
+     - Incomplete (subject to penalty)
+   * - Yes
+     - Pass (1p)
+
+1.2. Outline
+~~~~~~~~~~~~
+Does the report follow the required outline? i.e., 1. Introduction, 2. Problem Formulation, 3. Dataset. 4. Methods, 5. Results, 6. Conclusion & Discussion, and 7. Bibliography/References.
+
+.. list-table::
+   :widths: 60 40
+   :header-rows: 0
+
+   * - No. There is some deviation from the outline (e.g. one section is missing)
+     - Incomplete (subject to penalty)
+   * - Yes
+     - Pass (1p)
+
+1.3. Visualizations
+~~~~~~~~~~~~~~~~~~~
+Does the report contain at least **two** visualizations? For example, one visualization for the result and one for the dataset.
+
+.. list-table::
+   :widths: 60 40
+   :header-rows: 0
+
+   * - No
+     - Incomplete (subject to penalty)
+   * - Yes
+     - Pass (1p)
+
+1.4. Authenticity
+~~~~~~~~~~~~~~~~~
+Does the report contain entire paragraphs which seem to be AI generated or copy-pasted from another source (other student projects, Wikipedia, research articles, Kaggle, StackOverflow, GitHub, etc.) without proper indication of the source?
+
+* You also cannot copy-paste from the content of the course's assignments.
+* Citing the reference alone is not sufficient if the text uses the exact words. You should place quotation marks around the copied part.
+* Please remember that direct quotations are seldom used. 
+
+.. list-table::
+   :widths: 80 20
+   :header-rows: 0
+
+   * - No, I did not find indicators for AI generated content or copy-paste of other sources.
+     - Pass (1p)
+   * - Yes, I found parts in the report which have been copy-pasted. In this case, please support your claim it in the comment section.
+     - Incomplete (Project Fail)
+
+1.5. Code
+~~~~~~~~~
+Does the report contain pieces of code, pseudocode, or screenshots of code?
+
+.. list-table::
+   :widths: 60 40
+   :header-rows: 0
+
+   * - No
+     - Pass (1p)
+   * - Yes. Please mention in the comment section.
+     - Incomplete (subject to penalty)
+
+1.6. Observations
+~~~~~~~~~~~~~~~~~
+Does the report discuss at least the required number of observations (for example, subject level and community level)? If fewer observations are discussed, does the report discuss why?
+
+.. list-table::
+   :widths: 80 20
+   :header-rows: 0
+
+   * - No. At least one of the required observations is missing (without justified reason).
+     - Incomplete (subject to penalty)
+   * - Yes
+     - Pass (1p)
+
+
+2. Overall Criteria (6 points)
+------------------------------
+Pay attention to the language and the structure of the report (chapters and paragraphs are well organized).  Ensure that the references are adequate and well-formatted and that the visualizations are informative and correctly used.
+
+2.1. Language and Style
+~~~~~~~~~~~~~~~~~~~~~~~
+Rate the use of language and the structure of the report.
+
+.. list-table::
+   :widths: 90 10
+   :header-rows: 0
+
+   * - The quality of presentation and use of language is very poor.
+     - 0
+   * - The language is poor or the report is not clearly structured.
+     - 1p
+   * - The language is clear and the report is well structured.
+     - 2p
+
+
+2.2. Bibliography
+~~~~~~~~~~~~~~~~~
+Have the references been used correctly and where necessary?
+
+.. list-table::
+   :widths: 90 10
+   :header-rows: 0
+
+   * - The references are incomplete or they do not follow a standard format/style.
+     - 0p
+   * - The references are partly missing or inconsistently used.
+     - 1p
+   * - The references have been used correctly and adequately.
+     - 2p
+
+2.3. Figures and Tables
+~~~~~~~~~~~~~~~~~~~~~~~
+Rate the quality of report figures/data visualization.
+
+* The caption should be informative, in the appropriate place, and the figure/table should be referred to in the text.
+* The axis should be labeled, and the title should be informative.
+* The figure/table should be clear and easy to read.
+
+.. list-table::
+   :widths: 90 10
+   :header-rows: 0
+
+   * - The quality of the figures is poor, i.e., missing labels or titles, unsuitable data visualization techniques.
+     - 0p
+   * - The overall quality is good. However, there are minor issues with the figures.
+     - 1p
+   * - The overall quality is very good, and the visualizations support telling the story and communicating key pieces of information.
+     - 2p
+
+3. Introduction (6 points)
+--------------------------
+This chapter introduces the reader to the setting, context, and some key literature. Do refer to at least 3 relevant research papers in this section. The introduction should give an idea about the state-of-the-art (the known and the unknown). The section should introduce the problem, the methods, and the key results in a condensed way. In the introduction, you should motivate the project's research question and present it clearly (in a very brief manner, the next section "Problem formulation" contains a detailed description of the problem and the questions that are being answered in the project). After reading the introduction, the reader should understand what you have done, why, and the outcome without reading the rest of the report.
+
+3.1. Setting and Context
+~~~~~~~~~~~~~~~~~~~~~~~~
+Does the introduction provide the reader with the setting and the context? Is the key literature covered?
+
+.. list-table::
+   :widths: 90 10
+   :header-rows: 0
+
+   * - No
+     - 0p
+   * - The setting or context is not introduced properly or key literature references are missing.
+     - 1p
+   * - Yes
+     - 2p
+
+3.2. Literature Review
+~~~~~~~~~~~~~~~~~~~~~~
+Does the introduction cover the relevant literature on the subject?
+
+.. list-table::
+   :widths: 90 10
+   :header-rows: 0
+
+   * - There are too few references or the references are not relevant to the subject.
+     - 0p
+   * - Yes. The literature review is relevant and covers the key references.
+     - 1p
+
+3.3. Research Question
+~~~~~~~~~~~~~~~~~~~~~~
+Does the introduction motivate and present the research question?
+
+.. list-table::
+   :widths: 90 10
+   :header-rows: 0
+
+   * - The research question is not clearly stated or not well-motivated.
+     - 0p
+   * - Yes. The research question is clearly stated and well-motivated.
+     - 1p
+
+3.4. Contribution Summary
+~~~~~~~~~~~~~~~~~~~~~~~~~
+Are methods and key results presented in a condensed way?
+
+.. list-table::
+   :widths: 90 10
+   :header-rows: 0
+
+   * - No.
+     - 0p
+   * - Either the methods or the key results are not sufficiently presented.
+     - 1p
+   * - Yes.
+     - 2p
+
+4. Problem Formulation (4 points)
+---------------------------------
+Try to formulate the research problem so that it is easy to understand what the project work is about. The research problem should the relevant to the field of study, and the suggested solution manageable. The solution should address some significant, less-explored aspects of the problem.
+
+
+4.1. Formulation Clarity
+~~~~~~~~~~~~~~~~~~~~~~~~
+Is the research problem clearly formulated?
+
+.. list-table::
+   :widths: 90 10
+   :header-rows: 0
+
+   * - No.
+     - 0p
+   * - Yes.
+     - 1p
+
+4.2. Proper Scope
+~~~~~~~~~~~~~~~~~
+Is the research problem relevant, manageable, and addressing relevant aspects?
+
+.. list-table::
+   :widths: 90 10
+   :header-rows: 0
+
+   * - The problem formulation demonstrates little to no ability to define a manageable and doable topic.
+     - 0p
+   * - The formulation defines a problem that, while manageable/doable, is too narrowly focused and leaves out relevant aspects of the problem or so broad that, while doable, cannot be adequately addressed.
+     - 1p
+   * - The problem formulation defines a focused and manageable/doable problem that appropriately addresses relevant aspects of the problem.
+     - 2p
+   * - The problem formulation identifies an interesting, focused, and manageable problem that addresses potentially significant yet previously less-explored aspects of the problem.
+     - 3p
+
+5. Dataset Description (6 points)
+---------------------------------
+The dataset should be described in detail, containing information on types of data, amount of data, number of subjects, missing data, frequency of data, length and methods of data collection, etc. The description should include the dataset's source, how the data was gathered or recorded, for how long, and the number of data points (observations) contained in that set. It should also explain what the data points represent (e.g., daily aggregated observations having multiple passively sampled activity-related features for each subject). The description should also include information on which data features were used for the analysis, why these features were selected, and how data was preprocessed.
+
+5.1. Dataset Introduction
+~~~~~~~~~~~~~~~~~~~~~~~~~
+Does the report clearly describe the dataset which is used for data analysis?
+
+.. list-table::
+   :widths: 90 10
+   :header-rows: 0
+
+   * - The description of the dataset is unclear or insufficient.
+     - 0p
+   * - Yes. The description of the dataset is clear and detailed.
+     - 1p
+
+5.2. Data & Features
+~~~~~~~~~~~~~~~~~~~~
+Does the report clearly explain the data point properties and features used for the analysis?
+
+.. list-table::
+   :widths: 90 10
+   :header-rows: 0
+
+   * - The report does not include any description of the features that characterize a data point.
+     - 0p
+   * - Partially met.
+     - 1p
+   * - Yes. The report includes a full description of the features characterizing a data point.
+     - 2p
+
+5.3. Data Preprocessing
+~~~~~~~~~~~~~~~~~~~~~~~
+Does the report clearly describe the data preprocessing steps and give the reasons?
+
+.. list-table::
+   :widths: 90 10
+   :header-rows: 0
+
+   * - No data preprocessing and no proper reasons for that.
+     - 0p
+   * - The description of the data preprocessing is not clearly stated or not well-motivated
+     - 1p
+   * - The description of the data preprocessing is clearly stated, but the choices of preprocessing methods are not justified or sufficient.
+     - 2p
+   * - The description is clearly stated, and the choices of preprocessing methods are mature and well-motivated.
+     - 3p
+
+6. Methods (9 points)
+---------------------
+The methods section should describe the analysis methods, for example, those covered in the course programming assignments, that are used in the project to obtain the results. These methods should include descriptive and data analysis methods as well as other techniques such as clustering, dimension reduction, and classification methods, depending on the task. However, you are encouraged to go beyond and explore more sophisticated methods. The choice of the methods used should be justified in the report. The usage of the methods should be documented and attached to the report.
+
+6.1. Basic Methods
+~~~~~~~~~~~~~~~~~~
+Does the report use basic descriptive statistics and data visualization methods appropriately?
+
+.. list-table::
+   :widths: 90 10
+   :header-rows: 0
+
+   * - No.
+     - 0p
+   * - Some methods are used, but not justified or not sufficient.
+     - 1p
+   * - Yes. The basic statistics and visualization methods are properly used and justified.
+     - 2p
+
+6.2. Advanced Methods
+~~~~~~~~~~~~~~~~~~~~~
+In addition to basic descriptive statistics and data visualization methods, have some others been used in the analysis (e.g. machine learning or statistical method)?
+
+.. list-table::
+   :widths: 90 10
+   :header-rows: 0
+
+   * - No. Nothing beyond the basic analysis methods have been used.
+     - 0p
+   * - Only one additional method was used.
+     - 1p
+   * - Additional methods have been used (it suffices to report the results from the best-performing methods only).
+     - 2p
+   * - Yes. advanced machine learning or statistical methods (e.g., deep neural networks and hypothesis testing) have been used and the results have been reported.
+     - 3p
+
+6.3. Method Motivation
+~~~~~~~~~~~~~~~~~~~~~~
+Is the use of chosen methods well-motivated?
+
+.. list-table::
+   :widths: 90 10
+   :header-rows: 0
+
+   * - The choice of the methods is not motivated.
+     - 0p
+   * - The usage of the methods is motivated, but the suitability of the methods for the project is not fully justified.
+     - 1p
+   * - Yes. The choice of methods is well-motivated and justified for the project.
+     - 2p
+
+6.4. Documentation & Replicability
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Are the methods well described and documented, i.e., could you be able to try to replicate methods based on the description?
+
+.. list-table::
+   :widths: 90 10
+   :header-rows: 0
+
+   * - The methods are not well or vaguely described.
+     - 0p
+   * - The methods are not described, or the documentation is lacking.
+     - 1p
+   * - Yes. The methods are well-described and documented.
+     - 2p
+
+7. Results and Conclusion (8 points)
+------------------------------------
+The results and conclusion chapter describes your findings in detail, explaining what these results mean, the implications of these findings, the limitations of your analysis, and some possible future steps.
+
+7.1. Result Interpretation
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+Is the main result apparent and clearly interpreted, answering the stated project problem?
+
+.. list-table::
+   :widths: 90 10
+   :header-rows: 0
+
+   * - No.
+     - 0p
+   * - The result is not clearly interpreted, or it does not answer the stated problem.
+     - 1p
+   * - Yes. The result is clearly interpreted, and it answers the stated problem.
+     - 2p
+
+7.2. Implications
+~~~~~~~~~~~~~~~~~
+Are the implications of the results discussed?
+
+.. list-table::
+   :widths: 90 10
+   :header-rows: 0
+
+   * - No.
+     - 0p
+   * - The implications of the results have been considered only superficially.
+     - 1p
+   * - Yes. The implications of the results have been considered thoroughly.
+     - 2p
+
+7.3. Limitations & Shortcomings
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Are the main limitations and shortcomings of the analysis evaluated?
+
+.. list-table::
+   :widths: 90 10
+   :header-rows: 0
+
+   * - No. Neither the limitations nor the analysis weaknesses have been evaluated.
+     - 0p
+   * - The main limitations or analysis flaws have not been sufficiently evaluated.
+     - 1p
+   * - The main limitations of the analysis are evaluated extensively, and the shortcomings are acknowledged and discussed.
+     - 2p
+
+7.4. Future Steps
+~~~~~~~~~~~~~~~~~
+Are ideas for future analysis presented?
+
+.. list-table::
+   :widths: 90 10
+   :header-rows: 0
+
+   * - No.
+     - 0p
+   * - The ideas for future analysis are very limited.
+     - 1p
+   * - The ideas for future analysis are presented, including ideas to alleviate the analysis limitations.
+     - 2p
