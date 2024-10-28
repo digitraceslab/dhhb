@@ -180,7 +180,7 @@ You are given the network data that was gathered using smartphones. The subjects
 
 Inspiration: https://programminghistorian.org/en/lessons/exploring-and-analyzing-network-data-with-python
 
-Topic 6: Social Media Analysis on Vaccines Discourse 
+Topic 6: Social Media Analysis on Covid-19 Tweets 
 ----------------------------------------------------
 **Data:** https://www.kaggle.com/datasets/komalkhetlani/tweets-about-covid19-all-over-the-world
 
