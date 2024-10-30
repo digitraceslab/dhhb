@@ -39,9 +39,9 @@ Is the report at least 10 pages long (excluding references)?
    :header-rows: 0
 
    * - No
-     - Incomplete (subject to penalty)
+     - 0p (subject to penalty)
    * - Yes
-     - Pass (1p)
+     - 1p
 
 1.2. Outline
 ~~~~~~~~~~~~
@@ -51,10 +51,10 @@ Does the report follow the required outline? i.e., 1. Introduction, 2. Problem F
    :widths: 60 40
    :header-rows: 0
 
-   * - No. There is some deviation from the outline (e.g. one section is missing)
-     - Incomplete (subject to penalty)
-   * - Yes
-     - Pass (1p)
+   * - No, there is some deviation from the outline (e.g. one section is missing)
+     - 0p (subject to penalty)
+   * - Yes.
+     - 1p
 
 1.3. Visualizations
 ~~~~~~~~~~~~~~~~~~~
@@ -65,9 +65,9 @@ Does the report contain at least **two** visualizations? For example, one visual
    :header-rows: 0
 
    * - No
-     - Incomplete (subject to penalty)
+     - 0p (subject to penalty)
    * - Yes
-     - Pass (1p)
+     - 1p
 
 1.4. Authenticity
 ~~~~~~~~~~~~~~~~~
@@ -82,9 +82,9 @@ Does the report contain entire paragraphs which seem to be AI generated or copy-
    :header-rows: 0
 
    * - No, I did not find indicators for AI generated content or copy-paste of other sources.
-     - Pass (1p)
+     - 1p
    * - Yes, I found parts in the report which have been copy-pasted. In this case, please support your claim it in the comment section.
-     - Incomplete (Project Fail)
+     - 0p (Project Fail)
 
 1.5. Code
 ~~~~~~~~~
@@ -94,10 +94,10 @@ Does the report contain pieces of code, pseudocode, or screenshots of code?
    :widths: 60 40
    :header-rows: 0
 
-   * - No
-     - Pass (1p)
+   * - No.
+     - 1p
    * - Yes. Please mention in the comment section.
-     - Incomplete (subject to penalty)
+     - 0p (subject to penalty)
 
 1.6. Observations
 ~~~~~~~~~~~~~~~~~
@@ -107,10 +107,10 @@ Does the report discuss at least the required number of observations (for exampl
    :widths: 80 20
    :header-rows: 0
 
-   * - No. At least one of the required observations is missing (without justified reason).
-     - Incomplete (subject to penalty)
-   * - Yes
-     - Pass (1p)
+   * - No, at least one of the required observations is missing (without justified reason).
+     - 0p (subject to penalty)
+   * - Yes.
+     - 1p
 
 
 2. Overall Criteria (6 points)
@@ -126,7 +126,7 @@ Rate the use of language and the structure of the report.
    :header-rows: 0
 
    * - The quality of presentation and use of language is very poor.
-     - 0
+     - 0p
    * - The language is poor or the report is not clearly structured.
      - 1p
    * - The language is clear and the report is well structured.
@@ -179,11 +179,11 @@ Does the introduction provide the reader with the setting and the context? Is th
    :widths: 90 10
    :header-rows: 0
 
-   * - No
+   * - No.
      - 0p
    * - The setting or context is not introduced properly or key literature references are missing.
      - 1p
-   * - Yes
+   * - Yes.
      - 2p
 
 3.2. Literature Review
@@ -196,7 +196,7 @@ Does the introduction cover the relevant literature on the subject?
 
    * - There are too few references or the references are not relevant to the subject.
      - 0p
-   * - Yes. The literature review is relevant and covers the key references.
+   * - Yes, the literature review is relevant and covers the key references.
      - 1p
 
 3.3. Research Question
@@ -209,7 +209,7 @@ Does the introduction motivate and present the research question?
 
    * - The research question is not clearly stated or not well-motivated.
      - 0p
-   * - Yes. The research question is clearly stated and well-motivated.
+   * - Yes, the research question is clearly stated and well-motivated.
      - 1p
 
 3.4. Contribution Summary
@@ -220,7 +220,7 @@ Are methods and key results presented in a condensed way?
    :widths: 90 10
    :header-rows: 0
 
-   * - No.
+   * - No, none of the methods or key results are presented.
      - 0p
    * - Either the methods or the key results are not sufficiently presented.
      - 1p
@@ -240,9 +240,9 @@ Is the research problem clearly formulated?
    :widths: 90 10
    :header-rows: 0
 
-   * - No.
+   * - No, the research problem is vague or does not provide a clear direction for the project work.
      - 0p
-   * - Yes.
+   * - Yes, the research problem is clear and concise and provides a strong understanding of the project's purpose.
      - 1p
 
 4.2. Proper Scope
@@ -276,7 +276,7 @@ Does the report clearly describe the dataset which is used for data analysis?
 
    * - The description of the dataset is unclear or insufficient.
      - 0p
-   * - Yes. The description of the dataset is clear and detailed.
+   * - Yes, the description of the dataset is clear and detailed.
      - 1p
 
 5.2. Data & Features
@@ -291,7 +291,7 @@ Does the report clearly explain the data point properties and features used for 
      - 0p
    * - Partially met.
      - 1p
-   * - Yes. The report includes a full description of the features characterizing a data point.
+   * - Yes, the report includes a full description of the features characterizing a data point.
      - 2p
 
 5.3. Data Preprocessing
@@ -327,7 +327,7 @@ Does the report use basic descriptive statistics and data visualization methods 
      - 0p
    * - Some methods are used, but not justified or not sufficient.
      - 1p
-   * - Yes. The basic statistics and visualization methods are properly used and justified.
+   * - Yes, the basic statistics and visualization methods are properly used and justified.
      - 2p
 
 6.2. Advanced Methods
@@ -338,13 +338,13 @@ In addition to basic descriptive statistics and data visualization methods, have
    :widths: 90 10
    :header-rows: 0
 
-   * - No. Nothing beyond the basic analysis methods have been used.
+   * - No, nothing beyond the basic analysis methods have been used.
      - 0p
    * - Only one additional method was used.
      - 1p
    * - Additional methods have been used (it suffices to report the results from the best-performing methods only).
      - 2p
-   * - Yes. advanced machine learning or statistical methods (e.g., deep neural networks and hypothesis testing) have been used and the results have been reported.
+   * - Yes, advanced machine learning or statistical methods (e.g., deep neural networks or hypothesis testing) have been used and the results have been reported.
      - 3p
 
 6.3. Method Motivation
@@ -359,7 +359,7 @@ Is the use of chosen methods well-motivated?
      - 0p
    * - The usage of the methods is motivated, but the suitability of the methods for the project is not fully justified.
      - 1p
-   * - Yes. The choice of methods is well-motivated and justified for the project.
+   * - Yes, the choice of methods is well-motivated and justified for the project.
      - 2p
 
 6.4. Documentation & Replicability
@@ -374,7 +374,7 @@ Are the methods well described and documented, i.e., could you be able to try to
      - 0p
    * - The methods are not described, or the documentation is lacking.
      - 1p
-   * - Yes. The methods are well-described and documented.
+   * - Yes, the methods are well-described and documented.
      - 2p
 
 7. Results and Conclusion (8 points)
@@ -393,7 +393,7 @@ Is the main result apparent and clearly interpreted, answering the stated projec
      - 0p
    * - The result is not clearly interpreted, or it does not answer the stated problem.
      - 1p
-   * - Yes. The result is clearly interpreted, and it answers the stated problem.
+   * - Yes, the result is clearly interpreted, and it answers the stated problem.
      - 2p
 
 7.2. Implications
@@ -408,7 +408,7 @@ Are the implications of the results discussed?
      - 0p
    * - The implications of the results have been considered only superficially.
      - 1p
-   * - Yes. The implications of the results have been considered thoroughly.
+   * - Yes, the implications of the results have been considered thoroughly.
      - 2p
 
 7.3. Limitations & Shortcomings
@@ -419,7 +419,7 @@ Are the main limitations and shortcomings of the analysis evaluated?
    :widths: 90 10
    :header-rows: 0
 
-   * - No. Neither the limitations nor the analysis weaknesses have been evaluated.
+   * - No, neither the limitations nor the analysis weaknesses have been evaluated.
      - 0p
    * - The main limitations or analysis flaws have not been sufficiently evaluated.
      - 1p

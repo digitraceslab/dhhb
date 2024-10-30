@@ -35,7 +35,6 @@ Submission Instructions
 * Attach all the codes in a zip archive, including your pdf report, and a brief **README** file on how to set the environment (if needed) and run your code.
 * Submit the zip archive to the corresponding MyCourses submission box under the **Project** section.
 * Note that the use of AI tools (e.g., ChatGPT) for generating text or computer code is **strictly forbidden** and is considered cheating/plagiarism.
-* The submissions will be graded based on the rubric provided in the `Project Grading <rubrics.html>`_ page.
 * You are strongly advised to focus on the quality of your analysis rather than the quantity of the word count.
 
 2. Report
@@ -63,7 +62,11 @@ Report Outline
 
 Guide of how to make proper references with APA style: https://libguides.murdoch.edu.au/APA
 
-3. Topics
+3. Rubric
+=========
+The submissions will be graded based on the rubric provided in the `Project Grading <rubrics.html>`_ page.
+
+4. Topics
 =========
 Here you are given a list of options for your final project. You can either explore one of these or a dataset of your choice. If you decide to go with your own choice of the dataset, you must get it approved by the course staff within the first two weeks.
 The tasks and analyses under each topic are suggestions to make your work easier. They might not be enough for a complete project. If you want to get full points, please either conduct your analysis in addition to the suggested tasks or give a in-depth study of the given tasks.
