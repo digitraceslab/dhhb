@@ -84,10 +84,14 @@ In the "hourly" and "minute" files with the tracked data you can find how these 
 **Suggested Tasks:**
 
 1. Clean the data, remove N/A values and outliers if there are such
+
 2. Analyse the data and plot interesting observations:
+
    - Minimum one observation on the group level
    - Minimum one observation on the subject level
+
 3. Explore one (or more) of these topics:
+
    - Make conclusion about the subject's and community's lifestyle. Compare with the calories intake, sleep length and step count recommended by WHO.
    - Make conclusion about the tendencies in daily activities of the individuals (in which situations the individual eats more, sleeps more or exercises more). Explore the patterns.
    - Your own idea is welcome.
@@ -123,19 +127,31 @@ The dataset comprises >150 columns, including aggregated features derived from w
 
 **Inspiration:** https://dl.acm.org/doi/10.1145/3469266.3469878
 
-Topic 3: Sleep Analysis
+Topic 3: Sleep and Activity Analysis
 -----------------------
-**Data:** https://www.kaggle.com/danagerous/sleep-data
+**Data:** https://physionet.org/content/mmash/1.0.0/
 
-You are given the data that was collected through the Sleep Cycle app from Northcube on iOS between 2014-2018 for one user. In the dataset you can find the sleep quality, time spent in bed, general mood on waking up, notes about the events that could influence the sleep cycle and heartbeat.
+You are given data from the Multilevel Monitoring of Activity and Sleep in Healthy people (MMASH) dataset, which links wearable activity, sleep quality, physiological signals, and psychological self-reports. The data was collected over two consecutive days for 22 healthy participants. The dataset includes heart rate, accelerometer, sleep, activity, saliva biomarker, and psychological measures, allowing analysis of the relationships between physical activity, sleep quality, and psychological characteristics.
 
 **Suggested Tasks:**
 
-1. Clean the data, remove N/A values if there are such, or replace the missing values with predictions
-2. Analyse the data and plot interesting observations:
-   - At least two observations on the subject level
-3. Explore associations or any other topics with techniques such as clustering, dimension reduction, kernel methods, etc. The more methods you use, the higher chance your will get full points. 
-4. Conclude your results.
+1. Loop through each participant folder and combine all participant data.
+
+2. Clean the data, remove N/A values if there are such, or replace the missing values with predictions.
+
+3. Analyse the data and plot interesting observations
+
+   - Minimum one observation on the group level
+   - Minimum one observation on the subject level
+
+4. Explore one (or more) of these topics:
+
+   - Conduct a time-series analysis to examine how daytime activity patterns relate to sleep quality.
+   - Use regression or machine learning models to test whether HRV or movement predicts sleep fragmentation across participants.
+   - Investigate relationships between hormone levels and subjective and objective sleep measures.
+   - Investigate associations between self-reported stress or mood scores and objective sleep quality.
+   - Your own ideas are welcome.
+
 
 Topic 4: Interaction Analysis with Apple Watch Data
 ---------------------------------------------------
@@ -146,13 +162,18 @@ You are given the data that consists of motion (acceleration), heart rate and st
 **Suggested Tasks:**
 
 1. Clean the data, remove N/A values if there are such, or replace the missing values with predictions
+
 2. Analyse the data and plot interesting observations:
+
    - At least one observation on the group level
    - At least one observation on the subject level
+
 3. Explore one (or more) of these topics:
+
    - Create a model prediction if the individual is asleep or awake.
    - Create a model prediction if the individual's sleep cycle.
    - Your own ideas are welcome.
+
 4. Make a conclusion about what are the conditions which support longer deep sleep phase, thus influence better quality sleep.
 
 *Note! Please don't use labeled sleep values as parameters in your analysis, but rather treat them as a label.*
@@ -183,30 +204,30 @@ You are given the network data that was gathered using smartphones. The subjects
 
 Inspiration: https://programminghistorian.org/en/lessons/exploring-and-analyzing-network-data-with-python
 
-Topic 6: Social Media Analysis on Covid-19 Tweets 
+Topic 6: Stress Detection from Social Media Posts
 ----------------------------------------------------
-**Data:** https://www.kaggle.com/datasets/komalkhetlani/tweets-about-covid19-all-over-the-world
+**Data:** https://github.com/SenticNet/stress-detection
 
-You are given the Twitter posts data that contains tweets from the all over Twitter accounts of the world that are talking about Covid-19. The dataset provide features such as original tweet, language and created time. 
+You are given four high-quality datasets collected from Reddit and Twitter. Each post/tweet is labeled as either Stress Positive (1) or Stress Negative (0) based on an automated DNN-based annotation strategy
 
 **Suggested Tasks:**
 
-1. Clean the dataset, removing any URLs, mentions, special characters, and N/A values if present.
+1. Clean the datasets: remove duplicates, handle missing/empty texts, normalize formatting (e.g., whitespace, URLs, hashtags, emojis).
 
 2. Explore the data and plot interesting observations
    
-      - At least one observation on the post-activity (e.g. daily, weekly or monthly post frequency)
-
-      - At least one observation on the text (wordcloud, most frequent words, most frequent hashtags, most frequent mentions, etc.)
+   - At least one observation on the platform level (Reddit and Twitter).
+   - At least one observation on the text level (stress vs. non-stress posts)
 
 
 3. Explore one (or more) of these topics:
 
-   - Using LIWC (Linguistic Inquiry and Word Count) to conduct Linguistic analysis of the tweets (if you are seeking a liwc dic file, access https://drive.google.com/drive/folders/1nxx561wjP2zvr2NS3bubS8UpwvuVCh6y?usp=drive_link)..
-   - Using Textblob to conduct Sentiment Analysis of the tweets.
-   - Using other tools to analyze different aspects is welcome.
+   - Train baseline models (e.g., Logistic Regression, SVM) and compare with transformer-based models (e.g., BERT, RoBERTa) for stress classification (you can even use local LLMs with in-context learning or fine-tuning).
+   - Conduct cross-platform analysis: train on Reddit datasets and test on Twitter datasets (and vice versa) to assess generalization.
+   - Investigate the impact of dataset variations (e.g., Twitter Full vs. Non-Advert, Reddit Title vs. Combi) on classification accuracy.
+   - Conduct a linguistic analysis using LIWC (Linguistic Inquiry and Word Count), NRC emotion lexicon, or other tools to identify patterns of stress-related language.
 
-**Reference:** textblob: https://textblob.readthedocs.io/en/dev/
+**Reference:** Rastogi, A., Liu, Q., & Cambria, E. (2022, July). Stress detection from social media articles: New dataset benchmark and analytical study. In 2022 international joint conference on neural networks (IJCNN) (pp. 1-8). IEEE.
 
 Topic 7: Reddit Data vs. Mental Health in the COVID-19 Pandemic
 ---------------------------------------------------------------
