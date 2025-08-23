@@ -152,6 +152,7 @@ You are given data from the Multilevel Monitoring of Activity and Sleep in Healt
    - Investigate associations between self-reported stress or mood scores and objective sleep quality.
    - Your own ideas are welcome.
 
+**Reference:** Rossi, A., Da Pozzo, E., Menicagli, D., Tremolanti, C., Priami, C., Sirbu, A., Clifton, D., Martini, C., & Morelli, D. (2020). Multilevel Monitoring of Activity and Sleep in Healthy People (version 1.0.0). PhysioNet. RRID:SCR_007345. https://doi.org/10.13026/cerq-fc86
 
 Topic 4: Interaction Analysis with Apple Watch Data
 ---------------------------------------------------
