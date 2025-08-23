@@ -3,7 +3,7 @@ Project Grading
 
 This document describes the grading rubric and will serve as a guideline for the project report writing and peer-reviewing process.
 
-The project total grade is **45 points**, which is divided into the following sections:
+The project total grade is **50 points**, which is divided into the following sections:
 
 Rubrics
 =======
@@ -113,7 +113,7 @@ Does the report discuss at least the required number of observations (for exampl
      - 1p
 
 
-2. Overall Criteria (6 points)
+2. Overall Criteria (8 points)
 ------------------------------
 Pay attention to the language and the structure of the report (chapters and paragraphs are well organized).  Ensure that the references are adequate and well-formatted and that the visualizations are informative and correctly used.
 
@@ -126,11 +126,15 @@ Rate the use of language and the structure of the report.
    :header-rows: 0
 
    * - The quality of presentation and use of language is very poor.
-     - 0p
+     - 0p (subject to penalty)
+   * - The report relies almost entirely on bullet points.
+     - 0p (subject to penalty)
    * - The language is poor or the report is not clearly structured.
      - 1p
    * - The language is clear and the report is well structured.
      - 2p
+   * - Language is clear, utilises academic writing, and report is well structured
+     - 3p
 
 
 2.2. Bibliography
@@ -160,12 +164,15 @@ Rate the quality of report figures/data visualization.
    :widths: 90 10
    :header-rows: 0
 
-   * - The quality of the figures is poor, i.e., missing labels or titles, unsuitable data visualization techniques.
+   * - No figures or tables are included, or those present are irrelevant, misleading, or entirely unusable for supporting the report.
      - 0p
-   * - The overall quality is good. However, there are minor issues with the figures.
+   * - The quality of the figures is poor, i.e., missing labels or titles, inappropriate visualization techniques, or figures and tables that are difficult to interpret.
      - 1p
-   * - The overall quality is very good, and the visualizations support telling the story and communicating key pieces of information.
+   * - The overall quality is good. However, there are minor issues with the figures or tables, such as small inconsistencies, limited clarity, or insufficient captions.
      - 2p
+   * - The overall quality is very good, the visualizations support telling the story and communicating key pieces of information, and are consistent in formatting and clarity. 
+     - 3p
+
 
 3. Introduction (6 points)
 --------------------------
@@ -227,7 +234,7 @@ Are methods and key results presented in a condensed way?
    * - Yes.
      - 2p
 
-4. Problem Formulation (4 points)
+4. Problem Formulation (5 points)
 ---------------------------------
 Try to formulate the research problem so that it is easy to understand what the project work is about. The research problem should the relevant to the field of study, and the suggested solution manageable. The solution should address some significant, less-explored aspects of the problem.
 
@@ -242,8 +249,10 @@ Is the research problem clearly formulated?
 
    * - No, the research problem is vague or does not provide a clear direction for the project work.
      - 0p
-   * - Yes, the research problem is clear and concise and provides a strong understanding of the project's purpose.
+   * - The research problem is somewhat clear, offering a general sense of direction, but lacks precision or a detailed explanation of its purpose.
      - 1p
+   * - Yes, the research problem is clear and concise. It is well defined, focused, and provides a strong understanding of the project’s goals and intended outcomes.
+     - 2p
 
 4.2. Proper Scope
 ~~~~~~~~~~~~~~~~~
@@ -311,28 +320,30 @@ Does the report clearly describe the data preprocessing steps and give the reaso
    * - The description is clearly stated, and the choices of preprocessing methods are mature and well-motivated.
      - 3p
 
-6. Methods (9 points)
+6. Methods (10 points)
 ---------------------
 The methods section should describe the analysis methods, for example, those covered in the course programming assignments, that are used in the project to obtain the results. These methods should include descriptive and data analysis methods as well as other techniques such as clustering, dimension reduction, and classification methods, depending on the task. However, you are encouraged to go beyond and explore more sophisticated methods. The choice of the methods used should be justified in the report. The usage of the methods should be documented and attached to the report.
 
 6.1. Basic Methods
 ~~~~~~~~~~~~~~~~~~
-Does the report use basic descriptive statistics and data visualization methods appropriately?
+Does the report use basic descriptive statistics and data visualization methods appropriately? Methods must be well justified.
 
 .. list-table::
    :widths: 90 10
    :header-rows: 0
 
-   * - No.
+   * - No basic methods are used, or the attempt is incorrect and adds no value to the analysis.
      - 0p
-   * - Some methods are used, but not justified or not sufficient.
+   * - Some methods are included, but they are not well justified, or do not sufficiently support the analysis.
      - 1p
-   * - Yes, the basic statistics and visualization methods are properly used and justified.
+   * - Yes, basic methods are applied correctly and with some justification. They contribute to the analysis, though there may be minor gaps or limited explanation.
      - 2p
+   * - Yes, basic methods are applied effectively and well justified. They clearly support the analysis, provide useful insights, and show understanding of why each method was chosen.
+     - 3p
 
 6.2. Advanced Methods
 ~~~~~~~~~~~~~~~~~~~~~
-In addition to basic descriptive statistics and data visualization methods, have some others been used in the analysis (e.g. machine learning or statistical method)?
+In addition to basic descriptive statistics and data visualization methods, have some others been used in the analysis (e.g. machine learning methods)?
 
 .. list-table::
    :widths: 90 10
@@ -344,7 +355,7 @@ In addition to basic descriptive statistics and data visualization methods, have
      - 1p
    * - Additional methods have been used (it suffices to report the results from the best-performing methods only).
      - 2p
-   * - Yes, advanced machine learning or statistical methods (e.g., deep neural networks or hypothesis testing) have been used and the results have been reported.
+   * - Yes, advanced machine learning (e.g., deep neural networks) have been used and the results have been reported.
      - 3p
 
 6.3. Method Motivation
@@ -377,7 +388,7 @@ Are the methods well described and documented, i.e., could you be able to try to
    * - Yes, the methods are well-described and documented.
      - 2p
 
-7. Results and Conclusion (8 points)
+7. Results and Conclusion (9 points)
 ------------------------------------
 The results and conclusion chapter describes your findings in detail, explaining what these results mean, the implications of these findings, the limitations of your analysis, and some possible future steps.
 
@@ -421,10 +432,12 @@ Are the main limitations and shortcomings of the analysis evaluated?
 
    * - No, neither the limitations nor the analysis weaknesses have been evaluated.
      - 0p
-   * - The main limitations or analysis flaws have not been sufficiently evaluated.
+   * - Some limitations are mentioned, but the discussion is superficial or incomplete.
      - 1p
-   * - The main limitations of the analysis are evaluated extensively, and the shortcomings are acknowledged and discussed.
+   * - The main limitations are described and partly discussed, though not in depth.
      - 2p
+   * - The main limitations are evaluated extensively, with clear reflection on their impact.
+     - 3p
 
 7.4. Future Steps
 ~~~~~~~~~~~~~~~~~
