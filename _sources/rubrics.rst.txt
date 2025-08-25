@@ -326,7 +326,17 @@ The methods section should describe the analysis methods, for example, those cov
 
 6.1. Basic Methods
 ~~~~~~~~~~~~~~~~~~
-Does the report use basic descriptive statistics and data visualization methods appropriately? Methods must be well justified.
+Does the report make appropriate use of basic descriptive statistics and data visualization methods, with clear justification?
+
+Basic methods include:
+
+- Hypothesis testing such as t-test, chi square, Mann Whitney, etc.
+
+- Correlation analysis using Pearson or Spearman
+
+- Simple linear or logistic regression
+
+- For text analysis: lexicon based counts (e.g., LIWC, sentiment wordlists), simple frequency analysis, and word clouds
 
 .. list-table::
    :widths: 90 10
@@ -343,7 +353,19 @@ Does the report use basic descriptive statistics and data visualization methods 
 
 6.2. Advanced Methods
 ~~~~~~~~~~~~~~~~~~~~~
-In addition to basic descriptive statistics and data visualization methods, have some others been used in the analysis (e.g. machine learning methods)?
+Does the report go beyond basic descriptive statistics and visualizations by applying advanced analytical methods?
+
+Advanced methods include:
+
+- Multivariate modeling such as multiple regression and generalized linear models
+
+- Mixed effects and hierarchical models
+
+- Time series modeling
+
+- Machine learning approaches such as tree based models and deep neural networks
+
+- For text analysis: feature or model based approaches such as topic modeling (LDA, BERTopic), embedding based similarity (e.g., word2vec, Sentence BERT), and machine learning or deep learning classifiers on text
 
 .. list-table::
    :widths: 90 10
@@ -351,11 +373,11 @@ In addition to basic descriptive statistics and data visualization methods, have
 
    * - No, nothing beyond the basic analysis methods have been used.
      - 0p
-   * - Only one additional method was used.
+   * - One advanced method is applied, but the use is limited or not fully developed.
      - 1p
    * - Additional methods have been used (it suffices to report the results from the best-performing methods only).
      - 2p
-   * - Yes, advanced machine learning (e.g., deep neural networks) have been used and the results have been reported.
+   * - Yes, advanced methods are applied appropriately, with results clearly reported and well interpreted.
      - 3p
 
 6.3. Method Motivation
