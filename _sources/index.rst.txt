@@ -49,22 +49,22 @@ Prerequisites
 
 Schedule
 ==================
-* Wed 23.10.2024 14:15–16:00
-* Wed 30.10.2024 14:15–16:00
-* Wed 06.11.2024 14:15–16:00
-* Wed 13.11.2024 14:15–16:00
-* Wed 20.11.2024 14:15–16:00
-* Wed 27.11.2024 14:15–16:00
+* Wed 22.10.2025 14:15–16:00
+* Wed 29.10.2025 14:15–16:00
+* Wed 05.11.2025 14:15–16:00
+* Wed 12.11.2025 14:15–16:00
+* Wed 19.11.2025 14:15–16:00
+* Wed 26.11.2025 14:15–16:00
 * All lectures are held on campus (Location: Kandidaattikeskus, E-sali - Y124).
 
 Exercise Sessions
 ==================
-* Mon 28.10.2024 14:15–15:45
-* Mon 04.11.2024 14:15–15:45
-* Mon 11.11.2024 14:15–15:45
-* Mon 18.11.2024 14:15–15:45
-* Mon 25.11.2024 14:15–15:45
-* Mon 02.12.2024 14:15–15:45 (Questions related to the final project)
+* Mon 27.10.2025 14:15–15:45
+* Mon 03.11.2025 14:15–15:45
+* Mon 10.11.2025 14:15–15:45
+* Mon 17.11.2025 14:15–15:45
+* Mon 24.11.2025 14:15–15:45
+* Mon 01.12.2025 14:15–15:45 (Questions related to the final project)
 * All exercise sessions are held online.
 
 Workload structure
