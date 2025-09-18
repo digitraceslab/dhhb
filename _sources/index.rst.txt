@@ -65,7 +65,7 @@ Exercise Sessions
 * Mon 17.11.2025 14:15–15:45
 * Mon 24.11.2025 14:15–15:45
 * Mon 01.12.2025 14:15–15:45 (Questions related to the final project)
-* All exercise sessions are held online.
+* All exercise sessions are held on Zoom (`link to Zoom session <https://aalto.zoom.us/j/61175427911>`_).
 
 Workload structure
 ------------------
