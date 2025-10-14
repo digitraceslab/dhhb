@@ -251,6 +251,8 @@ This dataset enables a comprehensive look into how mental health support groups 
    - Investigate user behavior trends, such as changes in post frequency, length, and engagement during the peak COVID-19 months.
    - Your own cool, challenging idea is welcome!
 
+**Note:** Pre-processed features should not be be used directly.
+
 **Inspiration:** https://osf.io/preprints/psyarxiv/xvwcy
 
 **Reference:** textblob: https://textblob.readthedocs.io/en/dev/
