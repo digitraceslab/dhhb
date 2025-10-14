@@ -119,7 +119,7 @@ Pay attention to the language and the structure of the report (chapters and para
 
 2.1. Language and Style
 ~~~~~~~~~~~~~~~~~~~~~~~
-Rate the use of language and the structure of the report.
+Rate the use of language and the structure of the report. Do not include screenshots in your submission.
 
 .. list-table::
    :widths: 60 40
@@ -129,11 +129,13 @@ Rate the use of language and the structure of the report.
      - 0p (subject to penalty)
    * - The report relies almost entirely on bullet points.
      - 0p (subject to penalty)
+   * - The report contains screenshots.
+     - 0p (subject to penalty)
    * - The language is poor or the report is not clearly structured.
      - 1p
    * - The language is clear and the report is well structured.
      - 2p
-   * - Language is clear, utilises academic writing, and report is well structured
+   * - Language is clear, utilises academic writing, and report is well structured.
      - 3p
 
 
