@@ -162,7 +162,7 @@ You are given the data that consists of motion (acceleration), heart rate and st
 
 **Suggested Tasks:**
 
-1. Clean the data, remove N/A values if there are such, or replace the missing values with predictions
+1. Clean the data, remove N/A values if there are such, or replace the missing values with predictions. The script for preprocessing raw data may be utilized, provided that it is cited appropriately.
 
 2. Analyse the data and plot interesting observations:
 
