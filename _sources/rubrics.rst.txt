@@ -125,12 +125,9 @@ Rate the use of language and the structure of the report. Do not include screens
    :widths: 60 40
    :header-rows: 0
 
-   * - The quality of presentation and use of language is very poor.
-     - 0p (subject to penalty)
-   * - The report relies almost entirely on bullet points.
-     - 0p (subject to penalty)
-   * - The report contains screenshots.
-     - 0p (subject to penalty)
+   * - If **any** of the following are present:
+       very poor presentation or language, report relies almost entirely on bullet points, or report contains screenshots
+     - 0p 
    * - The language is poor or the report is not clearly structured.
      - 1p
    * - The language is clear and the report is well structured.
