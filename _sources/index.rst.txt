@@ -84,18 +84,20 @@ Lecture 1: Intro and background
 * Types of data
 
 
-Lecture 2: Quantified-self
+Lecture 2: Self-Tracking
 --------------------------
 
 * What is quantified-self? How prevalent is it?
 * What is measured and how is it measured? (apps vs devices)
 * Applications of self-tracking
+* Data and privacy
 
-Lecture 3: Quantifying behavior of groups of people/sub-populations
+Lecture 3: Large Observational Studies Using Sensors
 -------------------------------------------------------------------
 
-* Data collection in the wild/Social media data: case study: sentiment analysis during crises
+* Experimental vs Observational studies
 * Controlled data collection: case study: Reality mining/DTU/ identifying chronotypes
+* Digital health interventions
 
 Lecture 4: Digital Phenotyping
 ------------------------------
@@ -103,6 +105,7 @@ Lecture 4: Digital Phenotyping
 * What is digital phenotyping?
 * Areas where it can be used
 * Case-study: MoMo-Mood
+* Study: Multi-modal sleep measurement and alignment analysis
 
 **Resources** |br|
 Onnela, J. P., & Rauch, S. L. (2016). Harnessing smartphone-based digital phenotyping to enhance behavioral and mental health. Neuropsychopharmacology, 41(7), 1691-1696.
