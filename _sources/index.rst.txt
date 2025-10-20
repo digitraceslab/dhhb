@@ -112,6 +112,9 @@ Onnela, J. P., & Rauch, S. L. (2016). Harnessing smartphone-based digital phenot
 
 Lecture 5: Digital Phenotyping for Public Health
 ------------------------------------------------
+* What is extended digital phenotyping?
+* How can we use online digital phenotyping to understand public health
+* How can we use Large Language Models with digital phenotyping
 **Resources** |br|
 Waring, O. M., & Majumder, M. S. (2020). Introduction to Digital Phenotyping for Global Health. In Leveraging Data Science for Global Health (pp. 251-261). Springer, Cham.
 
