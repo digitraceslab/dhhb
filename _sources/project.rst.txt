@@ -231,7 +231,7 @@ You are given four high-quality datasets collected from Reddit and Twitter. Each
 
 **Reference:** Rastogi, A., Liu, Q., & Cambria, E. (2022, July). Stress detection from social media articles: New dataset benchmark and analytical study. In 2022 international joint conference on neural networks (IJCNN) (pp. 1-8). IEEE.
 
-Topic 7: Reddit Data vs. Mental Health in the COVID-19 Pandemic
+Topic 7: Exploring Online Mental Health Support on Reddit
 ---------------------------------------------------------------
 **Data:** https://zenodo.org/records/3941387
 
