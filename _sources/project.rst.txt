@@ -68,7 +68,7 @@ The submissions will be graded based on the rubric provided in the `Project Grad
 
 4. Topics
 =========
-Here you are given a list of options for your final project. You can either explore one of these or a dataset of your choice. If you decide to go with your own choice of the dataset, you must get it approved by the course staff within the first two weeks.
+Here you are given a list of options for your final project. You can either explore one of these or a dataset of your choice.
 The tasks and analyses under each topic are suggestions to make your work easier. They might not be enough for a complete project. If you want to get full points, please either conduct your analysis in addition to the suggested tasks or give a in-depth study of the given tasks.
 
 
