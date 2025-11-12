@@ -97,11 +97,10 @@ Lecture 3: Large Observational Studies Using Sensors
 
 * Experimental vs Observational studies
 * Controlled data collection: case study: Reality mining/DTU/ identifying chronotypes
-* Digital health interventions
 
 Lecture 4: Digital Phenotyping
 ------------------------------
-
+* Digital health interventions
 * What is digital phenotyping?
 * Areas where it can be used
 * Case-study: MoMo-Mood
