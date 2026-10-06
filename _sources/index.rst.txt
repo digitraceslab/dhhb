@@ -59,12 +59,12 @@ Schedule
 
 Exercise Sessions
 ==================
-* Mon 27.10.2025 14:15–15:45
-* Mon 03.11.2025 14:15–15:45
-* Mon 10.11.2025 14:15–15:45
-* Mon 17.11.2025 14:15–15:45
-* Mon 24.11.2025 14:15–15:45
-* Mon 01.12.2025 14:15–15:45 (Questions related to the final project)
+* Mon 26.10.2025 14:15–15:45
+* Mon 02.11.2025 14:15–15:45
+* Mon 09.11.2025 14:15–15:45
+* Mon 16.11.2025 14:15–15:45
+* Mon 23.11.2025 14:15–15:45
+* Mon 30.11.2025 14:15–15:45 (Questions related to the final project)
 * Exercise sessions are on Mondays 14:15  - 15:45 on Zoom (`link to Zoom session <https://aalto.zoom.us/j/61175427911>`_) and in-person (Tietotekniikka, C111).
 
 Workload structure
