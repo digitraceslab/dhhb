@@ -6,7 +6,7 @@
 .. image:: ../images/digitalhealthlogo.jpg
    :width: 600
    
-Welcome to the course CS-C4100 - Digital Health and Human Behavior!
+Welcome to the course CS-E4150 - Digital Health and Human Behavior!
 *******************************************************************
 
 .. toctree::
