@@ -114,6 +114,8 @@ Lecture 5: Digital Phenotyping for Public Health
 * What are extended phenotypes?
 * How can we use online digital traces to understand public health?
 * How can we use large language models with digital phenotyping data?
+* What are digital health interventions?
+* How are digital health intervention-based studies designed and evaluated?
 **Resources** |br|
 Waring, O. M., & Majumder, M. S. (2020). Introduction to Digital Phenotyping for Global Health. In Leveraging Data Science for Global Health (pp. 251-261). Springer, Cham.
 
