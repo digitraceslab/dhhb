@@ -404,10 +404,8 @@ Are the methods well described and documented, i.e., could you be able to try to
 
    * - The methods are not well or vaguely described.
      - 0p
-   * - The methods are not described, or the documentation is lacking.
-     - 1p
    * - Yes, the methods are well-described and documented.
-     - 2p
+     - 1p
 
 7. Results and Conclusion (9 points)
 ------------------------------------
