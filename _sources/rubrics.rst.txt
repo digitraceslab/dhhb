@@ -319,7 +319,7 @@ Does the report clearly describe the data preprocessing steps and give the reaso
    * - The description is clearly stated, and the choices of preprocessing methods are mature and well-motivated.
      - 3p
 
-6. Methods (12 points)
+6. Methods (11 points)
 ---------------------
 The methods section should describe the analysis methods, for example, those covered in the course programming assignments, that are used in the project to obtain the results. These methods should include descriptive and data analysis methods as well as other techniques such as clustering, dimension reduction, and classification methods, depending on the task. However, you are encouraged to go beyond and explore more sophisticated methods. The choice of the methods used should be justified in the report. The usage of the methods should be documented and attached to the report.
 
