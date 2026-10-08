@@ -38,7 +38,7 @@ Is the report at least 10 pages long (excluding references)?
    :widths: 20 80
    :header-rows: 0
 
-   * - No, the report contains unnecessary page breaks, empty spaces, or large margins (>1 inch). 
+   * - No, the report clearly contains unnecessary page breaks, empty spaces, or large margins (>1 inch) to fit the minimum page length. 
      - 0p (subject to penalty)
    * - Yes
      - 1p
@@ -169,7 +169,7 @@ Rate the quality of report figures/data visualization.
      - 1p
    * - The overall quality is good. However, there are minor issues with the figures or tables, such as small inconsistencies, limited clarity, or insufficient captions.
      - 2p
-   * - The overall quality is very good, the visualizations support telling the story and communicating key pieces of information, and are consistent in formatting and clarity. 
+   * - The overall quality is very good, the visualizations support telling the story and communicating key pieces of information, and are consistent in formatting and clarity. Figures have descriptive captions.
      - 3p
 
 
@@ -220,7 +220,7 @@ Does the introduction motivate and present the research question?
 
 3.4. Contribution Summary
 ~~~~~~~~~~~~~~~~~~~~~~~~~
-Are methods and key results presented in a condensed way?
+Are methods and key results presented in a condensed way at the end of the Introduction?
 
 .. list-table::
    :widths: 90 10
