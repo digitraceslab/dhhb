@@ -38,7 +38,7 @@ Is the report at least 10 pages long (excluding references)?
    :widths: 20 80
    :header-rows: 0
 
-   * - No
+   * - No, the report contains unnecessary page breaks, empty spaces, or large margins (>1 inch). 
      - 0p (subject to penalty)
    * - Yes
      - 1p
