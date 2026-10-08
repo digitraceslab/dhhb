@@ -169,7 +169,7 @@ Rate the quality of report figures/data visualization.
      - 1p
    * - The overall quality is good. However, there are minor issues with the figures or tables, such as small inconsistencies, limited clarity, or insufficient captions.
      - 2p
-   * - The overall quality is very good, the visualizations support telling the story and communicating key pieces of information, and are consistent in formatting and clarity. Figures have descriptive captions.
+   * - The overall quality is very good, the visualizations support telling the story and communicating key pieces of information, and are consistent in formatting and clarity. Figures and Tables have descriptive captions, and are referred to in the main text. 
      - 3p
 
 
