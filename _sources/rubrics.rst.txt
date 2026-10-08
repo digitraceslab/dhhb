@@ -101,7 +101,7 @@ Does the report contain pieces of code, pseudocode, or screenshots of code?
 
 1.6. Observations
 ~~~~~~~~~~~~~~~~~
-Does the report discuss at least the required number of observations (for example, subject level and community level)? If fewer observations are discussed, does the report discuss why?
+Does the report discuss observations at both the subject level (measuring an individual entity) and community level (aggregate environment or group context)? If not, does the report discuss why?
 
 .. list-table::
    :widths: 80 20
