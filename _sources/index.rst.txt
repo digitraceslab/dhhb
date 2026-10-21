@@ -49,22 +49,22 @@ Prerequisites
 
 Schedule
 ==================
-* Wed 22.10.2025 14:15–16:00
-* Wed 29.10.2025 14:15–16:00
-* Wed 05.11.2025 14:15–16:00
-* Wed 12.11.2025 14:15–16:00
-* Wed 19.11.2025 14:15–16:00
-* Wed 26.11.2025 14:15–16:00
+* Wed 21.10.2026 14:15–16:00
+* Wed 28.10.2026 14:15–16:00
+* Wed 04.11.2026 14:15–16:00
+* Wed 11.11.2026 14:15–16:00
+* Wed 18.11.2026 14:15–16:00
+* Wed 25.11.2026 14:15–16:00
 * All lectures are held on campus (Location: Kandidaattikeskus, E-sali - Y124).
 
 Exercise Sessions
 ==================
-* Mon 26.10.2025 14:15–15:45
-* Mon 02.11.2025 14:15–15:45
-* Mon 09.11.2025 14:15–15:45
-* Mon 16.11.2025 14:15–15:45
-* Mon 23.11.2025 14:15–15:45
-* Mon 30.11.2025 14:15–15:45 (Questions related to the final project)
+* Mon 26.10.2026 14:15–15:45
+* Mon 02.11.2026 14:15–15:45
+* Mon 09.11.2026 14:15–15:45
+* Mon 16.11.2026 14:15–15:45
+* Mon 23.11.2026 14:15–15:45
+* Mon 30.11.2026 14:15–15:45 (Questions related to the final project)
 * Exercise sessions are on Mondays 14:15  - 15:45 on Zoom (`link to Zoom session <https://aalto.zoom.us/j/61175427911>`_) and in-person (Maarintie 8, AS6 - 1521).
 
 Workload structure
