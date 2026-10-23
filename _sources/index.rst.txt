@@ -70,7 +70,7 @@ Exercise Sessions
 Workload structure
 ------------------
 
-* Weekly lectures (bonus attendance points)
+* Weekly lectures
 * Weekly exercises; data analysis
 * Weekly reading + multiple choice questions
 * Final project + Peer grading
