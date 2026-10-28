@@ -3,7 +3,7 @@ Project Grading
 
 This document describes the grading rubric and will serve as a guideline for the project report writing and peer-reviewing process.
 
-The project total grade is **50 points**, which is divided into the following sections:
+The project total grade is **51 points**, which is divided into the following sections:
 
 Rubrics
 =======
